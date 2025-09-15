@@ -1,0 +1,117 @@
+MyAnimation:
+  change-interval: 100
+  texts:
+    - '&b&lLàng Bất Ổn'
+    - '&d&lLàng Bất Ổn'
+    - '&6&lLàng Bất Ổn'
+    - '&e&lLàng Bất Ổn'
+
+MyAnimation1:
+  change-interval: 100
+  texts:
+    - '<#ff00ff>&m                                  </#ffff00>'
+    - '<#e091c2>&m                                  </#ffe066>'
+    - '<#c080ff>&m                                  </#ffea00>'
+    - '<#abce80>&m                                  </#eaff00>'
+    - '<#80ffab>&m                                  </#aaff00>'
+    - '<#00ff00>&m                                  </#80ffab>'
+    - '<#2affce>&m                                  </#00ffea>'
+    - '<#39d996>&m                                  </#00eaff>'
+    - '<#41fb41>&m                                  </#00aaff>'
+    - '<#32da33>&m                                  </#0080ff>'
+    - '<#24bb25>&m                                  </#0080ea>'
+    - '<#169c16>&m                                  </#00aaff>'
+    - '<#4940bb>&m                                  </#00eaff>'
+    - '<#736dd8>&m                                  </#00ffea>'
+    - '<#9c9cf2>&m                                  </#80ffea>'
+    - '<#d8736d>&m                                  </#abce80>'
+    - '<#f29c9c>&m                                  </#e091c2>'
+
+MyAnimation2:
+  change-interval: 100
+  texts:
+    - '<#ff00ff>&m                                                  </#ffff00>'
+    - '<#e091c2>&m                                                  </#ffe066>'
+    - '<#c080ff>&m                                                  </#ffea00>'
+    - '<#abce80>&m                                                  </#eaff00>'
+    - '<#80ffab>&m                                                  </#aaff00>'
+    - '<#00ff00>&m                                                  </#80ffab>'
+    - '<#2affce>&m                                                  </#00ffea>'
+    - '<#39d996>&m                                                  </#00eaff>'
+    - '<#41fb41>&m                                                  </#00aaff>'
+    - '<#32da33>&m                                                  </#0080ff>'
+    - '<#24bb25>&m                                                  </#0080ea>'
+    - '<#169c16>&m                                                  </#00aaff>'
+    - '<#4940bb>&m                                                  </#00eaff>'
+    - '<#736dd8>&m                                                  </#00ffea>'
+    - '<#9c9cf2>&m                                                  </#80ffea>'
+    - '<#d8736d>&m                                                  </#abce80>'
+    - '<#f29c9c>&m                                                  </#e091c2>'
+
+ServerName:
+  change-interval: 200
+  texts:
+    - '&6&lLangBatOn'
+    - '&e&lLangBatOn'
+    - '&b&lLangBatOn'
+    - '&a&lLangBatOn'
+    - '&d&lLangBatOn'
+    - '&c&lLangBatOn'
+web:
+  change-interval: 200
+  texts:
+    - '&b&lsmiledev.id.vn'
+    - '&a&lsmiledev.id.vn'
+    - '&d&lsmiledev.id.vn'
+    - '&6&lsmiledev.id.vn'
+    - '&e&lsmiledev.id.vn'
+vote:
+  change-interval: 900
+  texts:
+    - '&a&lVote: &e&lvote.smiledev.id.vn'
+    - '&b&lVote: &e&lvote.smiledev.id.vn'
+    - '&d&lVote: &e&lvote.smiledev.id.vn'
+    - '&6&lVote: &e&lvote.smiledev.id.vn'
+Welcome:
+  change-interval: 350
+  texts:
+    - '&a&lC_'
+    - '&a&lCh_'
+    - '&a&lCha_'
+    - '&a&lChào_'
+    - '&a&lChào m_'
+    - '&a&lChào mư_'
+    - '&a&lChào mừn_'
+    - '&a&lChào mừng_'
+    - '&a&lChào mừng t_'
+    - '&a&lChào mừng tr_'
+    - '&a&lChào mừng trở_'
+    - '&a&lChào mừng trở l_'
+    - '&a&lChào mừng trở lạ_'
+    - '&a&lChào mừng trở lại_'
+    - '&a&lChào mừng trở lại_'
+    - '&a&lChào mừng trở lạ_'
+    - '&a&lChào mừng trở l_'
+    - '&a&lChào mừng trở_'
+    - '&a&lChào mừng tr_'
+    - '&a&lChào mừng t_'
+    - '&a&lChào mừng_'
+    - '&a&lChào mừn_'
+    - '&a&lChào mư_'
+    - '&a&lChào m_'
+    - '&a&lChào_'
+    - '&a&lCha_'
+    - '&a&lCh_'
+    - '&a&lC_'
+time:
+  change-interval: 1500
+  texts:
+    - '&b⏰ &7Giờ: &f%time%'
+    - '&e📅 &7Ngày: &f%date%'
+barcolors:
+  change-interval: 800
+  texts:
+    - '&cĐỏ'
+    - '&9Xanh dương'
+    - '&aXanh lá'
+    - '&eVàng'

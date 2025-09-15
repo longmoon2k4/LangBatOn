@@ -1,0 +1,27 @@
+[2025/09/14 16:21:56]: §9          __             _       
+[2025/09/14 16:21:56]: §9  _ __   / /  ___   __ _(_)_ __  
+[2025/09/14 16:21:56]: §9 | '_ \ / /  / _ \ / _` | | '_ \ 
+[2025/09/14 16:21:56]: §9 | | | / /__| (_) | (_| | | | | |
+[2025/09/14 16:21:56]: §9 |_| |_\____/\___/ \__, |_|_| |_|
+[2025/09/14 16:21:56]: §9                  |___/            
+[2025/09/14 16:21:56]: §9 By: www.nickuc.com - V 10.4.23 DEVELOPMENT
+[2025/09/14 16:21:56]: §9 
+[2025/09/14 16:21:56]: §3[nLogin] [DEBUG] The config.yml file was created successfully.
+[2025/09/14 16:22:01]: §3[nLogin] [DEBUG] All settings were loaded in 4605 ms.
+[2025/09/14 16:22:01]: §3[nLogin] [DEBUG] Loading the messages_en.yml message file...
+[2025/09/14 16:22:01]: §3[nLogin] [DEBUG] All plugin messages were loaded in 61 ms (languageByClient=false).
+[2025/09/14 16:22:01]: §3[nLogin] [DEBUG] All proxy settings were loaded in 1 ms.
+[2025/09/14 16:22:01]: §3[nLogin] [DEBUG] Loading database...
+[2025/09/14 16:22:01]: [nLogin] Generating RSA keypair... (this may take a while)
+[2025/09/14 16:22:04]: [nLogin] The RSA key pair was successfully generated. Took 3.25s
+[2025/09/14 16:22:04]: §3[nLogin] [DEBUG] Starting logger filter...
+[2025/09/14 16:22:05]: [nLogin] Downloading ProtocolLib...
+[2025/09/14 16:22:05]: §4[nLogin] [ERROR] §c
+[2025/09/14 16:22:05]: §4[nLogin] [ERROR] §cProtocolLib could not be downloaded automatically.
+[2025/09/14 16:22:05]: §4[nLogin] [ERROR] §c
+[2025/09/14 16:22:05]: §4[nLogin] [ERROR] §cPlease go to the link below and download below:
+[2025/09/14 16:22:05]: §4[nLogin] [ERROR] §chttps://ci.dmulloy2.net/job/ProtocolLib/
+[2025/09/14 16:22:05]: §4[nLogin] [ERROR] §c
+[2025/09/14 16:22:05]: §4[nLogin] [ERROR] §cTHE SERVER WILL SHUT DOWN AUTOMATICALLY AFTER 60 SECONDS.
+[2025/09/14 16:22:05]: §4[nLogin] [ERROR] §c
+[2025/09/14 16:23:09]: [nLogin] Successful plugin core shutdown (took 0.01s)

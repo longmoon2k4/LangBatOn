@@ -1,0 +1,426 @@
+####################################################################################################
+# +----------------------------------------------------------------------------------------------+ #
+# |                                          __             _                                    | #
+# |                                 _ __   / /  ___   __ _(_)_ __                                | #
+# |                                | '_ \ / /  / _ \ / _` | | '_ \                               | #
+# |                                | | | / /__| (_) | (_| | | | | |                              | #
+# |                                |_| |_\____/\___/ \__, |_|_| |_|                              | #
+# |                                                    |___/                                     | #
+# |                                                                                              | #
+# |                      A practical, secure and friendly authentication plugin                  | #
+# |                                                                                              | #
+# |                                © 2025 - Powered by nickuc.com                                | #
+# |                                                                                              | #
+# |                                                                                              | #
+# |  New options are not automatically added in this file. Default values are used               | #
+# |  if an option is not found.                                                                  | #
+# +----------------------------------------------------------------------------------------------+ #
+####################################################################################################
+
+pending:
+  login: '&eHãy dùng lệnh &7/login <mật khẩu>&e để đăng nhập.'
+  register: '&eHãy dùng lệnh &7/register <mật khẩu> <mật khẩu>&e để đăng ký.'
+  action-bar:
+    singular: '&cBạn còn {0} giây để {login///register}.'
+    plural: '&cBạn còn {0} giây để {login///register}.'
+success:
+  login: '&aBạn đã đăng nhập thành công!'
+  register: '&aBạn đã đăng ký thành công!'
+  session: '&aPhiên đăng nhập của bạn đã được tiếp tục.'
+  premium: '&aBạn đã được đăng nhập tự động vì sử dụng tài khoản chính thức.'
+  bedrock: '&aBạn đã được đăng nhập tự động vì truy cập từ Bedrock.'
+  change-password: '&aMật khẩu của bạn đã được thay đổi thành công.'
+  reload: '&ePlugin đã được tải lại thành công.'
+  kick:
+    unregister: '&aBạn đã hủy đăng ký thành công.'
+    marked-offline: '&7Tài khoản của bạn đã được đánh dấu là &6offline&7, vui lòng vào lại.'
+    challenge-premium: '&7Để xác nhận bạn dùng tài khoản chính thức, hãy đăng nhập lại.'
+error:
+  not-registered: '&cTên này chưa được đăng ký.'
+  offline: '&cNgười chơi này đang offline.'
+  address-limit: '&cBạn đã vượt quá số tài khoản cho phép trên mỗi IP.'
+  database: '&cXin lỗi, thao tác với cơ sở dữ liệu không thành công. Xem chi tiết trong console.'
+  command:
+    usage: '&cBạn phải dùng {0}.'
+    no-permission: '&cBạn không có quyền sử dụng lệnh này.'
+    player-required: '&cLệnh này đã bị vô hiệu hóa qua console.'
+    console-required: '&cLệnh này chỉ dùng được qua console.'
+    arguments:
+      password: mật khẩu
+      current-password: mật khẩu hiện tại
+      new-password: mật khẩu mới
+  already:
+    login: '&cBạn đã đăng nhập rồi.'
+    login-other: '&cNgười chơi này đã đăng nhập.'
+    registered: '&cTên này đã được đăng ký.'
+    premium: '&cTài khoản của bạn đã được đánh dấu là chính thức.'
+  password:
+    same-as-current: '&cMật khẩu bạn nhập trùng với mật khẩu hiện tại.'
+    too-large: '&cMật khẩu bạn nhập quá dài.'
+    too-small: '&cMật khẩu bạn nhập quá ngắn.'
+    not-secure: '&cMật khẩu chưa đủ bảo mật. Vui lòng thêm số, chữ hoa, chữ thường và ký tự đặc biệt.'
+    do-not-match: '&cHai mật khẩu không giống nhau.'
+    require-confirmation: '&cBạn cần xác nhận lại mật khẩu.'
+    incorrect: '&cMật khẩu không đúng. Vui lòng thử lại.'
+  kick:
+    incorrect-password: '&cBạn nhập sai mật khẩu.'
+    wait-server-start: |-
+      &cServer chưa khởi động xong.
+      &cVui lòng chờ một chút rồi kết nối lại.
+    account-blocked: |-
+      &cĐịa chỉ của bạn đã bị chặn do nghi ngờ xâm nhập.&r
+      &r&cThời gian còn lại: {0}
+    invalid-nickname: '&cTên của bạn không hợp lệ, hãy bỏ dấu cách, ký tự đặc biệt và ký tự không hợp lệ.'
+    bedrock-nickname: '&cTên &f("{0}") &cchỉ dành cho người chơi Bedrock.'
+    transferred-nickname: |-
+      &cTên &f("{0}") &cđã được chuyển sang tài khoản khác có cùng UUID.
+
+      &eVui lòng chọn tên khác để vào server.'
+    already-online: '&cNgười chơi này đang online.'
+    unknown-hostname: |-
+      &4[nLogin] Hostname &f({0}) &4chưa được cấu hình.
+      &r
+      &r&cNếu đây là IP hợp lệ, hãy thêm vào mục phù hợp trong phần cấu hình &f"premium.username-appender"&c.
+      &r
+      &r&eXem hướng dẫn tại:
+      &r&bhttps://docs.nickuc.com/nlogin/username-appender
+    premium-not-logged: '&cBạn chưa đăng nhập vào tài khoản. Hãy khởi động lại Minecraft.'
+    premium-challenge: '&cBạn chưa vượt qua xác thực tài khoản chính thức. Vui lòng vào lại server.'
+    timeout:
+      login: '&cBạn đã đăng nhập quá lâu.'
+      register: '&cBạn đã đăng ký quá lâu.'
+notification:
+  all-viewed: '&aBạn đã xem tất cả thông báo.'
+  premium-question:
+  - ''
+  - ' &eBạn có đang sử dụng tài khoản chính thức không?'
+  - ' &7(Sau khi xác nhận, bạn cần vào lại server.)'
+  - ''
+  select-language:
+  - ''
+  - ' &7Chúng tôi phát hiện bạn đang dùng ngôn ngữ &f{0}&7.'
+  - ''
+  - ' &eBạn có muốn đổi ngôn ngữ nLogin không?'
+  - ''
+  password-update:
+  - ''
+  - ' &eBạn cần đặt lại mật khẩu.'
+  - ''
+  - ' &7Vui lòng đổi mật khẩu bằng lệnh sau:'
+  - ' &f/changepass <mật khẩu hiện tại> <mật khẩu mới>'
+  - ''
+  button:
+    confirm-read:
+      text: '&a[Xác nhận đã đọc]'
+      hover: null
+    yes-btn:
+      text: '&a[Đồng ý]'
+      hover: null
+    no-btn:
+      text: '&c[Không]'
+      hover: null
+2fa:
+  not-registered: '&cBạn chưa liên kết tài khoản {0}.'
+  already-registered: '&cBạn đã liên kết tài khoản {0} rồi.'
+  register-limit: '&cBạn đã vượt quá số lượng tài khoản {0} cho phép.'
+  unregistered: '&eBạn đã hủy liên kết {0} thành công.'
+  incorrect-code: '&cMã xác nhận không đúng. Vui lòng thử lại.'
+  rate-limit: '&cBạn đã vượt quá giới hạn. Vui lòng chờ {0} phút để thử lại.'
+  confirmed-account: '&aTài khoản {0} của bạn đã được liên kết thành công.'
+  confirmation-message-sent: |-
+    &7Mã xác nhận đã được gửi tới &6{0}&7 của bạn.
+    &8(&f{1}&8).
+  command-delay: '&cVui lòng chờ một chút trước khi thực hiện lại lệnh này.'
+  help-command:
+  - ''
+  - ' &fTrạng thái: [&a{2} đã liên kết//&c{2} chưa liên kết]&f.'
+  - ''
+  - ' [&8⋆ &7/{0} add: &fLiên kết {1} của bạn.]'
+  - ' [&8⋆ &7/{0} remove: &fHủy liên kết {1} của bạn.]'
+  - ' [&8⋆ &7/{0} recover: &fKhôi phục tài khoản.]'
+  - ' [&8⋆ &7/{0} 2fa: &fBật/tắt xác thực hai lớp.]'
+  - ''
+  recover-command:
+  - ''
+  - ' &eChọn phương thức khôi phục:'
+  - ' [&8⋆ &7{0}: &f/{1} recover]'
+  - ''
+  switch:
+    enabled: '&aTính năng xác thực hai lớp đã được bật.'
+    disabled: '&cTính năng xác thực hai lớp đã được tắt.'
+  recover:
+    not-equal: '&c{0} bạn cung cấp không giống với thông tin đã đăng ký.'
+    message-sent: '&aTin nhắn khôi phục đã được gửi tới tài khoản liên kết.'
+    change-password: '&aMật khẩu của bạn đã được đổi thành &f''{0}''&a.'
+  discord:
+    account-linked: |-
+      &aConfiguration in Discord successfully updated.
+      &aYou have been linked with &f{0} &aaccount.
+    confirm-account:
+    - ''
+    - ' &7To complete the linking, you need to confirm your Discord account.'
+    - ' &7Join to &b{0} &7and type'
+    - ' &7the command in the DM of the &f{1} &7bot.'
+    - ''
+    - ' [&aClick here to get the command with the token.]'
+    - ''
+    warn-message:
+    - ''
+    - ' &7Perform the command &f/discord add &7to register'
+    - ' &7your &cdiscord&7. By doing so, you'
+    - ' &7decrease the chance of being hacked.'
+    - ''
+    discord-required:
+    - ''
+    - ' &7The current server requires you to link a'
+    - ' &aDiscord account &7to complete registration.'
+    - ''
+    - ' &6Please run &f/discord add&6.'
+    - ''
+    address-changed:
+    - ''
+    - ' &7You need to confirm your account login.'
+    - ' &7A security message has been sent to your registered Discord.'
+    - ''
+    - ' &aClick the message button to confirm your identity.'
+    - ''
+    dm:
+      configure:
+        too-recent:
+          title: Too recent account
+          description: You can't link your Discord because your account was created too recently.
+          image: https://www.nickuc.com/static/assets/img/2fa-lock-default.png
+          color: '#808080'
+        invalid:
+          title: Invalid code
+          description: Sorry, but the token you entered is invalid or does not exist.
+          image: https://www.nickuc.com/static/assets/img/2fa-lock-default.png
+          color: '#808080'
+        success:
+          title: Discord linked
+          description: Your Discord has been linked successfully.
+          image: https://www.nickuc.com/static/assets/img/2fa-lock-default.png
+          color: '#808080'
+      verify:
+        title: Confirm your account authentication.
+        description: |-
+          Authentication confirmation is required to access your @player account.
+
+          If it wasn't you, deny the operation and change your password immediately.
+        image: https://www.nickuc.com/static/assets/img/2fa-lock-default.png
+        color: '#808080'
+        allow: Allow
+        deny: Deny
+      recover:
+        title: Password recovery requested.
+        description: |-
+          A password recovery request has been requested from your @player account.
+
+          If it wasn't you, deny the operation and change your password immediately.
+        image: https://www.nickuc.com/static/assets/img/2fa-lock-default.png
+        color: '#808080'
+        allow: Allow
+        deny: Deny
+      new-password:
+        title: New password for @player
+        description: |-
+          A new password has been generated for your account:
+          `{0}`
+        image: https://www.nickuc.com/static/assets/img/2fa-lock-default.png
+        color: '#808080'
+      password-changed:
+        title: Password changed for @player
+        description: |-
+          Your password has been changed to:
+          `{0}`
+        image: https://www.nickuc.com/static/assets/img/2fa-lock-default.png
+        color: '#808080'
+  email:
+      invalid-email: '&cEmail bạn nhập không hợp lệ.'
+      not-allowed: '&cTên miền email bạn chọn không được phép.'
+      server-email: '&cBạn không thể sử dụng email của server.'
+      warn-message:
+      - ''
+      - ' &7Hãy dùng lệnh &f/email associate &7để liên kết email.'
+      - ' &7Email của bạn sẽ giúp tăng bảo mật tài khoản.'
+      - ''
+      email-required:
+      - ''
+      - ' &7Server yêu cầu bạn liên kết một email hợp lệ để hoàn tất đăng ký.'
+      - ''
+      - ' &6Hãy dùng lệnh &f/email add <email của bạn>&6.'
+      - ''
+      address-changed:
+      - ''
+      - ' &7Bạn cần xác nhận đăng nhập tài khoản.'
+      - ' &7Một tin nhắn bảo mật đã được gửi tới email bạn đã liên kết.'
+      - ''
+      - ' &aDùng lệnh §f/email <mã> §ađể hoàn tất xác thực.'
+      - ''
+      stmp:
+        configure:
+          subject: Xác nhận tài khoản @player
+          content:
+          - <h1>
+          - ' Xin chào, @player!'
+          - </h1>
+          - <p>
+          - ' Để hoàn tất liên kết email, hãy dùng lệnh <strong>"/email @code"</strong>.'
+          - </p>
+          - <p>
+          - ' Nếu không phải bạn thực hiện, hãy bỏ qua tin nhắn này.'
+          - </p>
+        verify:
+          subject: Xác nhận đăng nhập tài khoản @player
+          content:
+          - <h1>
+          - ' Xin chào, @player!'
+          - </h1>
+          - <p>
+          - ' Để xác thực trên server, hãy dùng lệnh <strong>"/email @code"</strong>.'
+          - </p>
+          - <p>
+          - ' Nếu không phải bạn, hãy đổi mật khẩu NGAY LẬP TỨC.'
+          - </p>
+        recover:
+          subject: Khôi phục tài khoản @player
+          content:
+          - <h1>
+          - ' Xin chào, @player!'
+          - </h1>
+          - <p>
+          - ' Để khôi phục tài khoản, hãy dùng lệnh <strong>"/email <mật khẩu mới> @code"</strong>.'
+          - </p>
+          - <p>
+          - ' Nếu không phải bạn, hãy bỏ qua tin nhắn này.'
+          - </p>
+        new-password:
+          subject: Mật khẩu mới cho @player
+          content:
+          - <h1>
+          - ' Xin chào, @player!'
+          - </h1>
+          - <p>
+          - ' Mật khẩu mới cho tài khoản của bạn là: {0}'
+          - </p>
+        password-changed:
+          subject: Đã đổi mật khẩu cho @player
+          content:
+          - <h1>
+          - ' Xin chào, @player!'
+          - </h1>
+          - <p>
+          - ' Mật khẩu của bạn đã được đổi thành: {0}'
+          - </p>
+bedrock:
+  forms:
+      login:
+        title: 'Xác thực'
+        content:
+        - 'Chào mừng, @player!'
+        - 'Để đăng nhập, hãy nhập mật khẩu vào ô bên dưới:'
+        - ''
+        - '[Mật khẩu//Nhập mật khẩu của bạn]'
+        - ''
+      register:
+        title: 'Đăng ký'
+        content:
+        - 'Chào mừng, @player!'
+        - 'Để chơi trên server, bạn cần tạo một mật khẩu.'
+        - 'Hãy nhập mật khẩu mong muốn vào ô bên dưới.'
+        - ''
+        - '[Mật khẩu//Nhập mật khẩu của bạn]'
+        - '[Xác nhận//Xác nhận mật khẩu]'
+        - ''
+title:
+  before-login:
+      title: '&a&lCHÀO MỪNG!'
+      subtitle: '&7Dùng: /login <mật khẩu của bạn>'
+      delays:
+      fadeIn: 2
+      stay: 9999
+      fadeOut: 6
+  before-register:
+      title: '&a&lCHÀO MỪNG!'
+      subtitle: '&7Dùng: /register <mật khẩu> <mật khẩu>'
+      delays:
+      fadeIn: 2
+      stay: 9999
+      fadeOut: 6
+  after-login:
+      title: ''
+      subtitle: '&aBạn đã đăng nhập thành công!'
+      delays:
+      fadeIn: 2
+      stay: 60
+      fadeOut: 6
+  after-register:
+      title: ''
+      subtitle: '&aBạn đã đăng ký thành công!'
+      delays:
+      fadeIn: 2
+      stay: 60
+      fadeOut: 6
+  incorrect-password:
+      title: ''
+      subtitle: '&cMật khẩu không đúng!'
+      delays:
+      fadeIn: 2
+      stay: 60
+      fadeOut: 6
+  already-login:
+      title: ''
+      subtitle: '&cBạn đã đăng nhập rồi!'
+      delays:
+      fadeIn: 2
+      stay: 60
+      fadeOut: 6
+  already-registered:
+      title: ''
+      subtitle: '&cBạn đã đăng ký rồi!'
+      delays:
+      fadeIn: 2
+      stay: 60
+      fadeOut: 6
+  passwords-dont-match:
+      title: ''
+      subtitle: '&cHai mật khẩu không giống nhau!'
+      delays:
+      fadeIn: 2
+      stay: 60
+      fadeOut: 6
+  session-login:
+      title: ''
+      subtitle: '&ePhiên đăng nhập của bạn đã được tiếp tục.'
+      delays:
+      fadeIn: 2
+      stay: 60
+      fadeOut: 6
+  premium-login:
+      title: ''
+      subtitle: '&eTài khoản của bạn là chính thức, đã đăng nhập thành công.'
+      delays:
+      fadeIn: 2
+      stay: 60
+      fadeOut: 6
+  bedrock-login:
+      title: ''
+      subtitle: '&eĐăng nhập qua Bedrock thành công.'
+      delays:
+      fadeIn: 2
+      stay: 60
+      fadeOut: 6
+  security-warning:
+      title: ''
+      subtitle: '&cCó cảnh báo bảo mật mới trong khung chat'
+      delays:
+      fadeIn: 2
+      stay: 60
+      fadeOut: 6
+  answer-required:
+      title: ''
+      subtitle: '&eVui lòng trả lời câu hỏi được gửi trong khung chat.'
+      delays:
+      fadeIn: 2
+      stay: 9999
+      fadeOut: 6

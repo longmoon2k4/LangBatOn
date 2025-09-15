@@ -1,0 +1,106 @@
+[2025/09/14 16:32:03]: §9          __             _       
+[2025/09/14 16:32:03]: §9  _ __   / /  ___   __ _(_)_ __  
+[2025/09/14 16:32:03]: §9 | '_ \ / /  / _ \ / _` | | '_ \ 
+[2025/09/14 16:32:03]: §9 | | | / /__| (_) | (_| | | | | |
+[2025/09/14 16:32:03]: §9 |_| |_\____/\___/ \__, |_|_| |_|
+[2025/09/14 16:32:03]: §9                  |___/            
+[2025/09/14 16:32:03]: §9 By: www.nickuc.com - V 10.4.23 DEVELOPMENT
+[2025/09/14 16:32:03]: §9 
+[2025/09/14 16:32:04]: §3[nLogin] [DEBUG] All settings were loaded in 157 ms.
+[2025/09/14 16:32:05]: §4[nLogin] [ERROR] §cCannot load plugins\nLogin\lang\messages_en.yml config file, aborting load
+org.bukkit.configuration.InvalidConfigurationException: while parsing a block mapping
+ in 'reader', line 336, column 3:
+      before-login:
+      ^
+expected <block end>, but found '<block mapping start>'
+ in 'reader', line 339, column 5:
+        delays:
+        ^
+
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:112)
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:160)
+	at com.nickuc.login.τφθχΔαΣγτφς.a(:108)
+	at com.nickuc.login.ΣΣπδβωΦδιςδςψΣς.X(:112)
+	at com.nickuc.login.ΣΣπδβωΦδιςδςψΣς.<init>(:64)
+	at com.nickuc.login.ΣΣπδβωΦδιςδςψΣς.<init>(:58)
+	at com.nickuc.login.ωΓπκΩβςςδξΔν.<init>(:887)
+	at com.nickuc.login.ωΓπκΩβςςδξΔν.<init>(:876)
+	at com.nickuc.login.ΦτχπδσρχΓΨω.a(:141)
+	at com.nickuc.login.ΦτχπδσρχΓΨω.h(:131)
+	at com.nickuc.login.ψηβμοσςυγΛεπ.a(:699)
+	at com.nickuc.login.μΦξβετδμγ.b(:30)
+	at com.nickuc.login.ςνΛωΠθρπυΣμκΓΩο.e(:89)
+	at com.nickuc.login.φξγΦηχθοςι.h(:133)
+	at com.nickuc.login.ΨαθεΩΓψυχβφΠΓΨ.h(:72)
+	at com.nickuc.login.bukkit.nLoginBukkit.h(:64)
+	at com.nickuc.login.ξνΩρΛγβψεζεςΠκ.h(:69)
+	at com.nickuc.login.ΓθςΔΓδυσΓμχτ.aq(:300)
+	at com.nickuc.login.ΨαθεΩΓψυχβφΠΓΨ.enable(:50)
+	at nLogin.jar//com.nickuc.login.loader.platform.BukkitLoader.onEnable(BukkitLoader.java:32)
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:280)
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:202)
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109)
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520)
+	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:652)
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:608)
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:236)
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1164)
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: while parsing a block mapping
+ in 'reader', line 336, column 3:
+      before-login:
+      ^
+expected <block end>, but found '<block mapping start>'
+ in 'reader', line 339, column 5:
+        delays:
+        ^
+
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:654)
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:161)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:57)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:43)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:136)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:116)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:330)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:369)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:348)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:323)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:369)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:348)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:323)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209)
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:131)
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:157)
+	at org.yaml.snakeyaml.Yaml.compose(Yaml.java:575)
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:105)
+	... 29 more
+[2025/09/14 16:32:05]: §3[nLogin] [DEBUG] Loading the messages_en.yml message file...
+[2025/09/14 16:32:05]: §3[nLogin] [DEBUG] All plugin messages were loaded in 1371 ms (languageByClient=false).
+[2025/09/14 16:32:05]: §3[nLogin] [DEBUG] All proxy settings were loaded in 2 ms.
+[2025/09/14 16:32:05]: §3[nLogin] [DEBUG] Loading database...
+[2025/09/14 16:32:06]: §3[nLogin] [DEBUG] Starting logger filter...
+[2025/09/14 16:32:19]: 
+[2025/09/14 16:32:19]:  §bThank you so much for choosing nLogin! §4<3
+[2025/09/14 16:32:19]: 
+[2025/09/14 16:32:19]:  §4For your safety, please read the message below:
+[2025/09/14 16:32:19]:   §cNever download nLogin from unknown sources.
+[2025/09/14 16:32:19]:   §cA modified version may contain malicious software.
+[2025/09/14 16:32:19]: 
+[2025/09/14 16:32:19]:  §3Trusted sources:
+[2025/09/14 16:32:19]:   §bwww.nickuc.com
+[2025/09/14 16:32:19]:   §bwww.github.com/nickuc
+[2025/09/14 16:32:19]:   §bOpeNLogin installer (from Spigot or GitHub)
+[2025/09/14 16:32:19]: 
+[2025/09/14 16:32:19]:  §3Official support channels:
+[2025/09/14 16:32:19]:   §bDiscord group: §fwww.nickuc.com/discord
+[2025/09/14 16:32:19]:   §bDocumentation: §fdocs.nickuc.com/nlogin/
+[2025/09/14 16:32:20]:   §bEmail: §fsupport@nickuc.com
+[2025/09/14 16:32:20]:   §bYouTube: §fyoutube.com/nickuc
+[2025/09/14 16:32:20]: 
+[2025/09/14 16:32:20]:  §eTo remove this warning, log in with "nlogin.admin" permission on the server
+[2025/09/14 16:32:20]:  §eand click the "Setup plugin" button to configure your plugin.
+[2025/09/14 16:32:20]: 
+[2025/09/14 16:34:59]: [nLogin] Successful plugin core shutdown (took 0.00s)
