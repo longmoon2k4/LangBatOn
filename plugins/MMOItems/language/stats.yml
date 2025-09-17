@@ -1,182 +1,157 @@
-# Weapon Stats
-attack-damage: '&3 &7➸ Attack Damage: &f{value}'
-attack-speed: '&3 &7➸ Attack Speed: &f{value}'
-critical-strike-chance: '&3 &7■ Crit Strike Chance: &f<plus>{value}%'
-critical-strike-power: '&3 &7■ Crit Strike Power: &f<plus>{value}%'
-skill-critical-strike-chance: '&3 &7■ Skill Crit Chance: &f<plus>{value}%'
-skill-critical-strike-power: '&3 &7■ Skill Crit Power: &f<plus>{value}%'
-range: '&3 &7■ Range: &f{value}' # Combat range for ranged weapons
-mana-cost: '&3 &7■ Uses &9{value} Mana'
-stamina-cost: '&3 &7■ Uses &9{value} Stamina'
-arrow-velocity: '&3 &7■ Arrow Velocity: &f{value}'
-blunt-power: '&3 &7■ Blunt Power: &f{value}'
-blunt-rating: '&3 &7■ Blunt Rating: &f{value}%'
-two-handed: '&3 &7■ Two Handed'
-handworn: '&3 &7■ Handworn'
-knockback: '&3 &7■ Knockback: &f{value}'
-recoil: '&3 &7■ Recoil: &f{value}%'
-note-weight: '&3 &7■ Note Weight: &f{value}'
-lifesteal: '&3 &7■ Lifesteal: &c+{value}%'
-spell-vampirism: '&3 &7■ Spell Vampirism: &c+{value}%'
+# Weapon Stats (Chỉ số Vũ Khí)
+attack-damage: '&4🗡&e ꜱáᴛ ᴛʜươɴɢ: &x&0&0&F&F&A&6{value}'
+attack-speed: '&x&C&F&F&1&F&F🗡&f ᴛốᴄ đáɴʜ: &x&0&0&F&F&A&6{value}'
+critical-strike-chance: '&x&F&F&E&8&C&1🗡&f % ᴄʜí ᴍạɴɢ: &x&0&0&F&F&A&6<plus>{value}%'
+critical-strike-power: '&x&F&F&B&E&4&F🗡&f ᴄʜí ᴍạɴɢ: &x&0&0&F&F&A&6<plus>{value}%'
+skill-critical-strike-chance: 'x&3&4&A&0&F&F☽&f % ᴄʜí ᴍạɴɢ ᴋỹ ɴăɴɢ: &x&0&0&F&F&A&6<plus>{value}%'
+skill-critical-strike-power: 'x&3&4&A&0&F&F☽&f ᴄʜí ᴍạɴɢ ᴋỹ ɴăɴɢ: &x&0&0&F&F&A&6<plus>{value}%'
+range: '&x&8&D&6&4&3&2🏹&f ᴛầᴍ ʙắɴ: &x&0&0&F&F&A&6{value}'
+mana-cost: '&b🧪&e ᴛɪêᴜ ʜᴀᴏ &x&0&0&F&F&A&6{value}&e ᴍᴀɴᴀ'
+stamina-cost: '&6🧪&e ᴛɪêᴜ ʜᴀᴏ &x&0&0&F&F&A&6{value}&e ᴛʜể ʟựᴄ'
+arrow-velocity: '&x&C&F&F&1&F&F🏹&f ᴛốᴄ độ ᴛêɴ: &x&0&0&F&F&A&6{value}'
+blunt-power: '&x&F&F&D&B&5&1📌&f đáɴʜ ʟᴀɴ: &x&0&0&F&F&A&6{value}'
+blunt-rating: '&x&F&F&E&B&9&C📌&f % đáɴʜ ʟᴀɴ: &x&0&0&F&F&A&6{value}%'
+two-handed: '&x&F&F&E&7&8&6🛠&e ᴠũ ᴋʜí ʜᴀɪ ᴛᴀʏ'
+handworn: '&x&F&F&E&7&8&6🛠&e ᴠũ ᴋʜí ᴄầᴍ ᴛᴀʏ'
+knockback: '&x&C&0&C&0&C&0⚓&f đẩʏ ʟùɪ: &x&0&0&F&F&A&6{value}'
+recoil: '&x&F&F&1&4&4&7🔫&f ɢɪậᴛ ʟùɪ: &x&0&0&F&F&A&6{value}%'
+note-weight: '&x&3&0&A&6&F&F🢇&f ᴛʀọɴɢ ʟượɴɢ: &x&0&0&F&F&A&6{value}'
+lifesteal: '&x&F&F&1&4&3&E🩸&f ʜúᴛ ᴍáᴜ: &x&0&0&F&F&A&6+{value}%'
+spell-vampirism: '&x&F&F&1&4&3&E🩸&f ʜúᴛ ᴍáᴜ &7<ꜱᴋɪʟʟ>&f: &x&0&0&F&F&A&6+{value}%'
 
-# Extra Damage
-pve-damage: '&3 &7■ PvE Damage: &f<plus>{value}%'
-pvp-damage: '&3 &7■ PvP Damage: &f<plus>{value}%'
-magic-damage: '&3 &7■ Magic Damage: &f<plus>{value}%'
-weapon-damage: '&3 &7■ Weapon Damage: &f<plus>{value}%'
-undead-damage: '&3 &7■ Undead Damage: &f<plus>{value}%'
-skill-damage: '&3 &7■ Skill Damage: &f<plus>{value}%'
-physical-damage: '&3 &7■ Physical Damage: &f<plus>{value}%'
-projectile-damage: '&3 &7■ Projectile Damage: &f<plus>{value}%'
-faction-damage-undead: '&3 &7■ Undead Faction Damage: &f<plus>{value}%'
+# Extra Damage (Sát Thương Phụ)
+pve-damage: '&x&F&2&F&F&5&B🍁&f ꜱáᴛ ᴛʜươɴɢ ᴘᴠᴇ: &x&0&0&F&F&A&6<plus>{value}%'
+pvp-damage: '&x&0&E&A&1&C&C🍁&f ꜱáᴛ ᴛʜươɴɢ ᴘᴠᴘ: &x&0&0&F&F&A&6<plus>{value}%'
+magic-damage: '&x&2&C&5&8&F&F🍁&f ꜱáᴛ ᴛʜươɴɢ ᴘʜéᴘ ᴛʜᴜậᴛ: &x&0&0&F&F&A&6<plus>{value}%'
+weapon-damage: '&x&C&B&C&B&C&B🍁&f ꜱáᴛ ᴛʜươɴɢ ᴠũ ᴋʜí: &x&0&0&F&F&A&6<plus>{value}%'
+undead-damage: '&x&C&7&B&2&7&C🍁&f ꜱáᴛ ᴛʜươɴɢ xáᴄ ꜱốɴɢ: &x&0&0&F&F&A&6<plus>{value}%'
+skill-damage: '&x&2&4&F&F&C&E🍁&f ꜱáᴛ ᴛʜươɴɢ ᴋỹ ɴăɴɢ: &x&0&0&F&F&A&6<plus>{value}%'
+physical-damage: '&x&9&C&9&C&9&C🍁&f ꜱáᴛ ᴛʜươɴɢ ᴠậᴛ ʟý: &x&0&0&F&F&A&6<plus>{value}%'
+projectile-damage: '&x&C&F&F&1&F&F🍁&f Sát Thương Mũi Tên: &x&0&0&F&F&A&6<plus>{value}%'
+faction-damage-undead: '&x&C&7&B&2&7&C🍁&f ꜱáᴛ ᴛʜươɴɢ ᴘʜᴇ xáᴄ ꜱốɴɢ: &x&0&0&F&F&A&6<plus>{value}%'
 
-# Abilities (changed in MI 6.9.5)
+# Abilities (Thay đổi trong MI 6.9.5)
 ability:
-  general-format: "&8| &7{trigger} &8|&e|&8| &7&l{ability}"
-  modifier-if-any: "\n" # Appended to general-format if the skill has at least one modifier
-  modifier-foreach: "&7{modifier}&8: &f{value}"
+  general-format: "&b◈&e Kĩ Năng:&b {ability}\n&7▻&x&E&4&F&F&8&E ᴋíᴄʜ ʜᴏạᴛ:&x&0&0&F&F&A&6 {trigger}\n"
+  modifier-foreach: "&7▻&x&E&4&F&F&8&E {modifier}: &x&0&0&F&F&A&6{value}"
   modifier-splitter: " &8&l|&7 "
-  modifiers-per-line: 3
+  modifiers-per-line: 1
   ability-splitter:
-    enabled: true
+    enabled: false
     format: ''
 
-# Armor Stats
-block-power: '&3 &7■ Block Power: &f<plus>{value}%'
-block-rating: '&3 &7■ Block Rating: &f<plus>{value}%'
-block-cooldown-reduction: '&3 &7■ Block Cooldown Reduction: &f<plus>{value}%'
-dodge-rating: '&3 &7■ Dodge Rating: &f<plus>{value}%'
-dodge-cooldown-reduction: '&3 &7■ Dodge Cooldown Reduction: &f<plus>{value}%'
-parry-rating: '&3 &7■ Parry Rating: &f<plus>{value}%'
-parry-cooldown-reduction: '&3 &7■ Parry Cooldown Reduction: &f<plus>{value}%'
-armor: '&3 &7✠ Armor: &f<plus>{value}'
-armor-toughness: '&3 &7✠ Armor Toughness: &f<plus>{value}'
-knockback-resistance: '&3 &7✠ Knockback Resistance: &f<plus>{value}%'
-max-health: '&3 &7❤ Health:&c <plus>{value}'
-movement-speed: '&3 &7■ Movement Speed: &f<plus>{value}'
+# Armor Stats (Chỉ số Giáp)
+block-power: '&x&C&D&F&F&7&5🖿&f ᴄʜặɴ: &x&0&0&F&F&A&6<plus>{value}%'
+block-rating: '&x&C&D&F&F&7&5🖿&f % ᴄʜặɴ: &x&0&0&F&F&A&6<plus>{value}%'
+block-cooldown-reduction: '&x&C&D&F&F&7&5🖿&f % ᴄʜặɴ ʟɪêɴ ᴛɪếᴘ: &x&0&0&F&F&A&6<plus>{value}%'
+dodge-rating: '&f&l💨&f % ɴé: &x&0&0&F&F&A&6<plus>{value}%'
+dodge-cooldown-reduction: '&f&l💨&f % ɴé ʟɪêɴ ᴛɪếᴘ: &x&0&0&F&F&A&6<plus>{value}%'
+parry-rating: '&x&D&A&F&F&1&4💝&f % ᴘʜảɴ đòɴ: &x&0&0&F&F&A&6<plus>{value}%'
+parry-cooldown-reduction: '&x&D&A&F&F&1&4💝&f % ᴘʜảɴ đòɴ ʟɪêɴ ᴛɪếᴘ: &x&0&0&F&F&A&6<plus>{value}%'
+armor: '&x&9&7&9&7&9&7🛡&f ɢɪáᴘ: &x&0&0&F&F&A&6<plus>{value}'
+armor-toughness: '&x&9&7&9&7&9&7🛡&f độ ʙềɴ ɢɪáᴘ: &x&0&0&F&F&A&6<plus>{value}'
+knockback-resistance: '&x&9&7&9&7&9&7🛡&f ᴋʜáɴɢ đẩʏ ʟùɪ: &x&0&0&F&F&A&6<plus>{value}%'
+max-health: '&x&F&F&0&B&4&1💗&f ᴍáᴜ ᴛốɪ đᴀ:&x&0&0&F&F&A&6 <plus>{value}'
+movement-speed: '&x&A&D&7&A&4&5&l👢&f ᴛốᴄ độ: &x&0&0&F&F&A&6<plus>{value}'
 
-# Damage Reduction
-defense: '&3 &7■ Defense: &f<plus>{value}'
-damage-reduction: '&3 &7■ Damage Reduction: &f<plus>{value}%'
-fall-damage-reduction: '&3 &7■ Fall Damage Reduction: &f<plus>{value}%'
-fire-damage-reduction: '&3 &7■ Fire Damage Reduction: &f<plus>{value}%'
-magic-damage-reduction: '&3 &7■ Magic Damage Reduction: &f<plus>{value}%'
-projectile-damage-reduction: '&3 &7■ Projectile Damage Reduction: &f<plus>{value}%'
-physical-damage-reduction: '&3 &7■ Physical Damage Reduction: &f<plus>{value}%'
-pve-damage-reduction: '&3 &7■ PvE Damage Reduction: &f<plus>{value}%'
-pvp-damage-reduction: '&3 &7■ PvP Damage Reduction: &f<plus>{value}%'
+# Damage Reduction (Giảm Sát Thương)
+defense: '&x&9&7&9&7&9&7🛡&e ᴘʜòɴɢ ᴛʜủ: &x&0&0&F&F&A&6<plus>{value}'
+damage-reduction: '&x&9&7&9&7&9&7🛡&f ɢɪảᴍ ꜱáᴛ ᴛʜươɴɢ: &x&0&0&F&F&A&6<plus>{value}%'
+fall-damage-reduction: '&x&9&7&9&7&9&7🛡&f ɢɪảᴍ ꜱáᴛ ᴛʜươɴɢ ʀơɪ: &x&0&0&F&F&A&6<plus>{value}%'
+fire-damage-reduction: '&x&9&7&9&7&9&7🛡&f ɢɪảᴍ ꜱáᴛ ᴛʜươɴɢ ʟửᴀ: &x&0&0&F&F&A&6<plus>{value}%'
+magic-damage-reduction: '&x&9&7&9&7&9&7🛡&f ɢɪảᴍ ꜱáᴛ ᴛʜươɴɢ ᴘʜéᴘ: &x&0&0&F&F&A&6<plus>{value}%'
+projectile-damage-reduction: '&x&9&7&9&7&9&7🛡&f ɢɪảᴍ ꜱáᴛ ᴛʜươɴɢ ᴍũɪ ᴛêɴ: &x&0&0&F&F&A&6<plus>{value}%'
+physical-damage-reduction: '&x&9&7&9&7&9&7🛡&f ɢɪảᴍ ꜱáᴛ ᴛʜươɴɢ ᴠậᴛ ʟý: &x&0&0&F&F&A&6<plus>{value}%'
+pve-damage-reduction: '&x&9&7&9&7&9&7🛡&f ɢɪảᴍ ꜱáᴛ ᴛʜươɴɢ ǫᴜáɪ: &x&0&0&F&F&A&6<plus>{value}%'
+pvp-damage-reduction: '&x&9&7&9&7&9&7🛡&f ɢɪảᴍ ꜱáᴛ ᴛʜươɴɢ ɴɢườɪ: &x&0&0&F&F&A&6<plus>{value}%'
 
-# RPG stats
-health-regeneration: '&3 &7■ Health Regeneration: &f<plus>{value}'
-max-mana: '&3 &7■ Max Mana: &f<plus>{value}'
-mana-regeneration: '&3 &7■ Mana Regeneration: &f<plus>{value}'
-max-stamina: '&3 &7■ Max Stamina: &f<plus>{value}'
-stamina-regeneration: '&3 &7■ Stamina Regeneration: &f<plus>{value}'
-cooldown-reduction: '&3 &7■ Skill Cooldown Reduction: &f<plus>{value}%'
-additional-experience: '&3 &7■ Additional Experience: &f<plus>{value}%'
-additional-experience-alchemy: '&7■ Additional Alchemy Experience: &f<plus>{value}%'
-additional-experience-enchanting: '&7■ Additional Enchanting Experience: &f<plus>{value}%'
-additional-experience-farming: '&7■ Additional Farming Experience: &f<plus>{value}%'
-additional-experience-fishing: '&7■ Additional Fishing Experience: &f<plus>{value}%'
-additional-experience-mining: '&7■ Additional Mining Experience: &f<plus>{value}%'
-additional-experience-smelting: '&7■ Additional Smelting Experience: &f<plus>{value}%'
-additional-experience-smithing: '&7■ Additional Smithing Experience: &f<plus>{value}%'
-additional-experience-woodcutting: '&7■ Additional Woodcutting Experience: &f<plus>{value}%'
+# RPG stats (Chỉ số RPG)
+health-regeneration: '&x&F&F&0&B&4&1💗&f ʜồɪ ᴍáᴜ: &x&0&0&F&F&A&6<plus>{value}'
+max-mana: '&b🧪&f ᴍᴀɴᴀ ᴛốɪ đᴀ: &x&0&0&F&F&A&6<plus>{value}'
+mana-regeneration: '&b🧪&f ʜồɪ ᴍᴀɴᴀ: &x&0&0&F&F&A&6<plus>{value}'
+max-stamina: '&6🧪&f ᴛʜể ʟựᴄ ᴛốɪ đᴀ: &x&0&0&F&F&A&6<plus>{value}'
+stamina-regeneration: '&6🧪&f ʜồɪ ᴛʜể ʟựᴄ: &x&0&0&F&F&A&6<plus>{value}'
+cooldown-reduction: '&&x&E&6&F&F&3&0&l🕓&f % ʜủʏ ʜồɪ ᴋỹ ɴăɴɢ: &x&0&0&F&F&A&6<plus>{value}%'
+additional-experience: '&x&3&0&F&F&4&3🧪&f ᴋɪɴʜ ɴɢʜɪệᴍ ᴛʜêᴍ: &x&0&0&F&F&A&6<plus>{value}%'
+additional-experience-alchemy: '&x&3&0&F&F&4&3🧪&f ᴋɪɴʜ ɴɢʜɪệᴍ ᴛʜêᴍ ᴛừ ʟᴜʏệɴ ᴋɪᴍ: &x&0&0&F&F&A&6<plus>{value}%'
+additional-experience-enchanting: '&x&3&0&F&F&4&3🧪&f ᴋɪɴʜ ɴɢʜɪệᴍ ᴛʜêᴍ ᴛừ ᴘʜù ᴘʜéᴘ: &x&0&0&F&F&A&6<plus>{value}%'
+additional-experience-farming: '&x&3&0&F&F&4&3🧪&f ᴋɪɴʜ ɴɢʜɪệᴍ ᴛʜêᴍ ᴛừ ᴛʀồɴɢ ᴛʀọᴛ: &x&0&0&F&F&A&6<plus>{value}%'
+additional-experience-fishing: '&x&3&0&F&F&4&3🧪&f ᴋɪɴʜ ɴɢʜɪệᴍ ᴛʜêᴍ ᴛừ ᴄâᴜ ᴄá: &x&0&0&F&F&A&6<plus>{value}%'
+additional-experience-mining: '&x&3&0&F&F&4&3🧪&f ᴋɪɴʜ ɴɢʜɪệᴍ ᴛʜêᴍ ᴛừ ᴋʜᴀɪ ᴛʜáᴄ: &x&0&0&F&F&A&6<plus>{value}%'
+additional-experience-smelting: '&x&3&0&F&F&4&3🧪&f ᴋɪɴʜ ɴɢʜɪệᴍ ᴛʜêᴍ ᴛừ ɴᴜɴɢ ɴấᴜ: &x&0&0&F&F&A&6<plus>{value}%'
+additional-experience-smithing: '&x&3&0&F&F&4&3🧪&f ᴋɪɴʜ ɴɢʜɪệᴍ ᴛʜêᴍ ᴛừ ʀèɴ: &x&0&0&F&F&A&6<plus>{value}%'
+additional-experience-woodcutting: '&x&3&0&F&F&4&3🧪&f ᴋɪɴʜ ɴɢʜɪệᴍ ᴛʜêᴍ ᴛừ ᴄʜặᴛ ᴄâʏ: &x&0&0&F&F&A&6<plus>{value}%'
 
-# 1.20.2+ Attributes
-block-break-speed: '&3 &7■ Mining Speed: &f<plus>{value}'
-block-interaction-range: '&3 &7■ Range: &f<plus>{value}' # Range for interacting with blocks & mining.
-entity-interaction-range: '&3 &7■ Combat Range: &f<plus>{value}'
-fall-damage-multiplier: '&3 &7■ Fall Damage: &f<plus>{value}%'
-gravity: '&3 &7■ Force of Gravity: &f<plus>{value}%'
-jump-strength: '&3 &7■ Jump Strength: &f<plus>{value}'
-max-absorption: '&3 &7■ Max Absorption: &f<plus>{value}'
-safe-fall-distance: '&3 &7■ Safe Fall Distance: &f<plus>{value}'
-scale: '&3 &7■ Size: &f<plus>{value}%'
-step-height: '&3 &7■ Smooth Walking: &f<plus>{value}'
-burning-time: '&3 &7■ Burning Time: &f<plus>{value}%'
-explosion-knockback-resistance: '&3 &7■ Explosion Knockback Resistance: &f<plus>{value}%'
-mining-efficiency: '&3 &7■ Mining Efficiency: &f<plus>{value}'
-movement-efficiency: '&3 &7■ Movement Efficiency: &f<plus>{value}%'
-oxygen-bonus: '&3 &7■ Waterbreathing: &f<plus>{value}'
-sneaking-speed: '&3 &7■ Sneaking Speed: &f<plus>{value}%'
-submerged-mining-speed: '&3 &7■ Underwater Mining Speed: &f<plus>{value}%'
-sweeping-damage-ratio: '&3 &7■ Sweeping Damage: &f<plus>{value}%'
-water-movement-efficiency: '&3 &7■ Underwater Movement Speed: &f<plus>{value}%'
+# Extra Options (Tùy Chọn Thêm)
+perm-effects: '&b◈&e &x&0&0&F&F&A&6{effect}'
+commands: '&7▻&f ʟệɴʜ: &x&0&0&F&F&A&6{format}&7(&f{cooldown}s&7)'
+item-cooldown: '&b◈&e &x&0&0&F&F&A&6{value}s&e ᴛʜờɪ ɢɪᴀɴ ʜồɪ'
+arrow-potion-effects: '&x&8&D&6&4&3&2🏹&f ʜɪệᴜ ứɴɢ ᴍũɪ ᴛêɴ: &x&0&0&F&F&A&6{effect}'
 
-# Extra Options
-perm-effects: '&3 &7■ Permanent &f{effect}'
-commands: '&3 &7■ Command: &f{format} &3 &7(&f{cooldown}&3 &7s)'
-item-cooldown: '&3 &7■ &f{value}&3 &7s Cooldown'
-arrow-potion-effects: '&3 &7■ Arrow Effect: &f{effect}'
+# Consumables (Vật Phẩm Tiêu Hao)
+restore-health: '&b◈&e ᴘʜụᴄ ʜồɪ &x&0&0&F&F&A&6{value}&e ᴍáᴜ'
+restore-food: '&b◈&e ᴘʜụᴄ ʜồɪ &x&0&0&F&F&A&6{value}&e ᴛʜứᴄ Ăɴ'
+restore-saturation: '&b◈&e ᴘʜụᴄ ʜồɪ &x&0&0&F&F&A&6{value}&e ʙãᴏ ʜòᴀ'
+restore-mana: '&b◈&e ᴘʜụᴄ ʜồɪ &x&0&0&F&F&A&6{value}&e ᴍᴀɴᴀ'
+restore-stamina: '&b◈&e ᴘʜụᴄ ʜồɪ &x&0&0&F&F&A&6{value}&e ᴛʜể ʟựᴄ'
+effects: '&7▻&f ᴄᴜɴɢ ᴄấᴘ &x&0&0&F&F&A&6{effect}&f ᴛʀᴏɴɢ &x&0&0&F&F&A&6{duration}s'
+repair: '&b◈&e ꜱửᴀ ᴄʜữᴀ: &x&0&0&F&F&A&6{value}'
+repair-percent: '&7▻&f ꜱửᴀ ᴄʜữᴀ: &x&0&0&F&F&A&6{value}%'
+can-identify: '&7▻&f ᴄó ᴛʜể ɴʜậɴ ᴅạɴɢ ᴠậᴛ ᴘʜẩᴍ'
+can-deconstruct: '&7▻&f ᴄó ᴛʜể ᴘʜâɴ ɢɪảɪ ᴠậᴛ ᴘʜẩᴍ ᴄó ᴄấᴘ độ'
+can-deskin: '&7▻&f ᴄó ᴛʜể xóᴀ ꜱᴋɪɴ ᴠậᴛ ᴘʜẩᴍ'
+success-rate: '&7▻&f % ᴛʜàɴʜ ᴄôɴɢ: &x&0&0&F&F&A&6{value}%'
+max-consume: '&b◈ &x&0&0&F&F&A&6{value}&e ʟầɴ ꜱử ᴅụɴɢ ᴄòɴ ʟạɪ'
 
-# Consumables
-restore-health: '&3 &7■ Restores &f{value} &7Health'
-restore-food: '&3 &7■ Restores &f{value} &7Food'
-restore-saturation: '&3 &7■ Restores &f{value} &7Saturation'
-restore-mana: '&3 &7■ Restores &f{value} &7Mana'
-restore-stamina: '&3 &7■ Restores &f{value} &7Stamina'
-effects: '&3 &7■ Grants &f{effect} &7for &f{duration} &7s'
-repair: '&3 &7■ Repair: &f{value}'
-repair-percent: '&3 &7■ Repair: &f{value}%'
-can-identify: '&3 &7■ Can identify items.'
-can-deconstruct: '&3 &7■ Can deconstruct tiered items.'
-can-deskin: '&3 &7■ Can de-skin skinned items.'
-success-rate: '&3 &7■ Success Rate: &a&l{value}%'
-max-consume: '&3 &7■ &f{value} &7Uses Left'
-
-# Gem Stones
-gem-stone-lore: '&8&l[&2&l*&8&l] &aDrag onto an item &7to apply!'
+# Gem Stones (Đá Quý)
+gem-stone-lore: '&b◈&a ᴋéᴏ ᴠàᴏ &eɪᴛᴇᴍ&a để ᴋʜảᴍ ɴɢọᴄ'
 gem-sockets:
-  empty: '&a◆ Empty {name} Gem Socket'
-  filled: '&a◆ {name}'
+  empty: '&b◈&e ô ɴɢọᴄ:&x&0&0&F&F&A&6 {name}'
+  filled: '&b◈&e {name}'
 
-# Soulbound
-soulbinding-chance: '&3 &7■ Has a &a{value}% &7chance to bind your item.'
-soulbound-break-chance: '&3 &7■ Has a &a{value}% &7chance to break soulbounds.'
-soulbound-level: '&3 &7■ Level &e{value} &7Soulbound'
+# Soulbound (Khóa Linh Hồn)
+soulbinding-chance: '&b◈&e ᴄó &x&0&0&F&F&A&6{value}%&e ᴄơ ʜộɪ ɴʜậɴ ᴄʜủ'
+soulbound-break-chance: '&7▻&f ᴄó &x&0&0&F&F&A&6{value}%&f ᴄơ ʜộɪ ʜủʏ ɴʜậɴ ᴄʜủ'
+soulbound-level: '&7▻&f độ ᴛʀᴜɴɢ ᴛʜàɴʜ: &x&0&0&F&F&A&6{value}'
 
-# Tools
-autosmelt: '&3 &7■ &fAutosmelt'
-bouncing-crack: '&3 &7■ &fBouncing Crack'
-pickaxe-power: '&3 &7■ &fPickaxe Power: &a{value}'
-durability: '&7Durability: {current} / {max}'
+# Tools (Công Cụ)
+autosmelt: '&b◈&e ᴛự độɴɢ ɴᴜɴɢ'
+bouncing-crack: '&b◈&e ᴄʜọᴄ ᴛʜủɴɢ ᴛʜɪêɴ địᴀ'
+pickaxe-power: '&b◈&e ꜱứᴄ ᴍạɴʜ ᴄúᴘ: &x&0&0&F&F&A&6{value}'
+durability: '&b◈&e độ ʙềɴ: &x&0&0&F&F&A&6{current}&f/&x&0&0&F&F&A&6{max}'
 
-# General
-item-type: '&c{type}'
-tier: '&3 &7Tier: {value}'
-required-class: '&3 &7{value} Item'
-required-level: '&eRequires Lvl {value}'
+# General (Chung)
+item-type: '&b◈&e ʟᴏạɪ: &x&0&0&F&F&A&6{type}'
+tier: '&7▻&f ʙậᴄ: &r{value}'
+required-class: '&7▻&f ᴠậᴛ ᴘʜẩᴍ ᴄủᴀ&b {value}'
+required-level: '&7▻&f ʏêᴜ ᴄầᴜ ʟᴠʟ:&b {value}'
 
-# MMOCore Attributes
-required-dexterity: '&eRequires &c{value} &eDexterity'
-required-strength: '&eRequires &c{value} &eStrength'
-required-intelligence: '&eRequires &c{value} &eIntelligence'
+# MMOCore Attributes (Chỉ số MMOCore)
+required-dexterity: '&7▻&f ʏêᴜ ᴄầᴜ &x&0&0&F&F&A&6{value}&e ɴʜᴀɴʜ ɴʜẹɴ'
+required-strength: '&7▻&f ʏêᴜ ᴄầᴜ &x&0&0&F&F&A&6{value}&e ꜱứᴄ ᴍạɴʜ'
+required-intelligence: '&7▻&f ʏêᴜ ᴄầᴜ &x&0&0&F&F&A&6{value}&e ᴛʀí ᴛᴜệ'
 
-additional-dexterity: '&3 &7■ Extra Dexterity: &f<plus>{value}'
-additional-strength: '&3 &7■ Extra Strength: &f<plus>{value}'
-additional-intelligence: '&3 &7■ Extra Intelligence: &f<plus>{value}'
+additional-dexterity: '&7▻&f ɴʜᴀɴʜ ɴʜẹɴ: &x&0&0&F&F&A&6<plus>{value}'
+additional-strength: '&7▻&f ꜱứᴄ ᴍạɴʜ: &x&0&0&F&F&A&6<plus>{value}'
+additional-intelligence: '&7▻&f ᴛʀí ᴛᴜệ: &x&0&0&F&F&A&6<plus>{value}'
 
-# MMOCore Professions
-profession-alchemy: '&eRequires Alchemy Lvl {value}'
-profession-enchanting: '&eRequires Enchanting Lvl {value}'
-profession-farming: '&eRequires Farming Lvl {value}'
-profession-fishing: '&eRequires Fishing Lvl {value}'
-profession-mining: '&eRequires Mining Lvl {value}'
-profession-smelting: '&eRequires Smelting Lvl {value}'
-profession-smithing: '&eRequires Smithing Lvl {value}'
-profession-woodcutting: '&eRequires Woodcutting Lvl {value}'
+# Professions (Nghề)
+profession-alchemy: '&7▻&f ᴄấᴘ độ ʟᴜʏệɴ ᴋɪᴍ: &x&0&0&F&F&A&6{value}'
+profession-enchanting: '&7▻&f ᴄấᴘ độ ᴘʜù ᴘʜéᴘ: &x&0&0&F&F&A&6{value}'
+profession-farming: '&7▻&f ᴄấᴘ độ ᴛʀồɴɢ ᴛʀọᴛ: &x&0&0&F&F&A&6{value}'
+profession-fishing: '&7▻&f ᴄấᴘ độ ᴄâᴜ ᴄá: &x&0&0&F&F&A&6{value}'
+profession-mining: '&7▻&f ᴄấᴘ độ ᴋʜᴀɪ ᴛʜáᴄ: &x&0&0&F&F&A&6{value}'
+profession-smelting: '&7▻&f ᴄấᴘ độ ɴᴜɴɢ ɴấᴜ: &x&0&0&F&F&A&6{value}'
+profession-smithing: '&7▻&f ᴄấᴘ độ ʀèɴ: &x&0&0&F&F&A&6{value}'
+profession-woodcutting: '&7▻&f ᴄấᴘ độ ᴄʜặᴛ ᴄâʏ: &x&0&0&F&F&A&6{value}'
 
-# Heroes stats
-required-secondary-hero-level: '&eRequires 2nd Hero Lvl {value}'
-
-# Elemental Stat Formats
+# Elemental Stat Formats (Chỉ Số Nguyên Tố)
 element:
-  damage: '{color}{icon}&7 {value} {element} Damage'
-  damage-percent: '{color}{icon}&7 +{value}% {element} Damage'
-  defense: '{color}{icon}&7 {value} {element} Defense'
-  defense-percent: '{color}{icon}&7 +{value}% {element} Defense'
-  weakness: '{color}{icon}&7 {value}% {element} Weakness'
+  damage: '{color}{icon}&x&0&0&F&F&A&6 {value}&f ꜱáᴛ ᴛʜươɴɢ {color}{element}'
+  damage-percent: '{color}{icon} &x&0&0&F&F&A&6+{value}%&f ꜱáᴛ ᴛʜươɴɢ {color}{element}'
+  defense: '{color}{icon} &x&0&0&F&F&A&6{value}&f ᴘʜòɴɢ ᴛʜủ {color}{element}'
+  defense-percent: '{color}{icon} &x&0&0&F&F&A&6+{value}%&f ᴘʜòɴɢ ᴛʜủ {color}{element}'
+  weakness: '{color}{icon} &x&0&0&F&F&A&6{value}%&f ꜱᴜʏ ʏếᴜ {color}{element}'
 
-# Custom stats
-custom-myluck: '&3 &7■ Luck: &f<plus>{value}'
+# Custom stats (Chỉ số tùy chỉnh)
+custom-myluck: '&7▻&f ᴍᴀʏ ᴍắɴ: &x&0&0&F&F&A&6<plus>{value}'
