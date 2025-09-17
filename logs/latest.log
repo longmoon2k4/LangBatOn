@@ -1,281 +1,259 @@
-[17:11:15] [ServerMain/INFO]: [bootstrap] Running Java 21 (Java HotSpot(TM) 64-Bit Server VM 21.0.7+8-LTS-245; Oracle Corporation null) on Windows 11 10.0 (amd64)
-[17:11:15] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.8-60-main@29c8822 (2025-09-06T21:49:13Z) for Minecraft 1.21.8
-[17:11:16] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[17:11:16] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins\PlaceholderAPI-2.11.6.jar'...
-[17:11:17] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins\PlaceholderAPI-2.11.6.jar' in 1270ms.
-[17:11:18] [ServerMain/INFO]: [PluginInitializerManager] Initialized 14 plugins
-[17:11:18] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (14):
+[13:32:44] [ServerMain/INFO]: [bootstrap] Running Java 21 (Java HotSpot(TM) 64-Bit Server VM 21.0.7+8-LTS-245; Oracle Corporation null) on Windows 11 10.0 (amd64)
+[13:32:44] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.8-60-main@29c8822 (2025-09-06T21:49:13Z) for Minecraft 1.21.8
+[13:32:45] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[13:32:45] [ServerMain/INFO]: [PluginInitializerManager] Initialized 14 plugins
+[13:32:45] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (14):
  - Essentials (2.22.0-dev+28-0aa25c8), EssentialsChat (2.22.0-dev+28-0aa25c8), EssentialsSpawn (2.22.0-dev+28-0aa25c8), LevelledMobs (4.3.2.1 b125), LuckPerms (5.5.11), MMOCore (1.13.1-SNAPSHOT), MMOItems (6.10.1-SNAPSHOT), MythicLib (1.7.1-SNAPSHOT), PlaceholderAPI (2.11.6), ProtocolLib (5.4.0), TAB (5.2.5), Vault (1.7.3-b131), nAntiBot (2.0.0), nLogin (10.4.22)
-[17:11:24] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[17:11:27] [ServerMain/INFO]: Loaded 1407 recipes
-[17:11:27] [ServerMain/INFO]: Loaded 1520 advancements
-[17:11:27] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[17:11:28] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 438.3ms
-[17:11:28] [Server thread/INFO]: Starting minecraft server version 1.21.8
-[17:11:28] [Server thread/INFO]: Loading properties
-[17:11:28] [Server thread/INFO]: This server is running Paper version 1.21.8-60-main@29c8822 (2025-09-06T21:49:13Z) (Implementing API version 1.21.8-R0.1-SNAPSHOT)
-[17:11:28] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[17:11:29] [Server thread/INFO]: Using 4 threads for Netty based IO
-[17:11:29] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[17:11:30] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[17:11:30] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
-[17:11:30] [Server thread/INFO]: Default game type: SURVIVAL
-[17:11:30] [Server thread/INFO]: Generating keypair
-[17:11:30] [Server thread/INFO]: Starting Minecraft server on *:25565
-[17:11:30] [Server thread/INFO]: Using default channel type
-[17:11:30] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[17:11:30] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[17:11:34] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.6
-[17:11:34] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.11
-[17:11:35] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[17:11:35] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.4.0
-[17:11:35] [Server thread/INFO]: [MythicLib] Loading server plugin MythicLib v1.7.1-SNAPSHOT
-[17:11:35] [Server thread/INFO]: [MythicLib] Plugin file is called 'MythicLib-dist-1.7.1-20250911.223617-39.jar'
-[17:11:35] [Server thread/INFO]: [MythicLib] Detected Bukkit Version: v1_21_R5
-[17:11:35] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
-[17:11:35] [Server thread/INFO]: [MMOCore] Loading server plugin MMOCore v1.13.1-SNAPSHOT
-[17:11:35] [Server thread/INFO]: [MMOCore] Plugin file is called 'MMOCore-1.13.1-SNAPSHOT.jar'
-[17:11:35] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.22.0-dev+28-0aa25c8
-[17:11:35] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.2.5
-[17:11:35] [Server thread/INFO]: [nLogin] Loading server plugin nLogin v10.4.22
-[17:11:36] [Server thread/INFO]: [nAntiBot] Loading server plugin nAntiBot v2.0.0
-[17:11:36] [Server thread/INFO]: [MMOItems] Loading server plugin MMOItems v6.10.1-SNAPSHOT
-[17:11:36] [Server thread/INFO]: [MMOItems] Plugin file is called 'MMOItems-6.10.1-SNAPSHOT.jar'
-[17:11:37] [Server thread/INFO]: [MMOItems Template Modifiers] Preloading template modifiers, please wait..
-[17:11:37] [Server thread/INFO]: [MMOItems Item Templates] Preloading item templates, please wait..
-[17:11:37] [Server thread/INFO]: [LevelledMobs] Loading server plugin LevelledMobs v4.3.2.1 b125
-[17:11:37] [Server thread/INFO]: [LevelledMobs] Loading commands
-[17:11:37] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.22.0-dev+28-0aa25c8
-[17:11:37] [Server thread/INFO]: [EssentialsChat] Loading server plugin EssentialsChat v2.22.0-dev+28-0aa25c8
-[17:11:37] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[17:11:37] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.11
-[17:11:38] [Server thread/INFO]:         __    
-[17:11:38] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.11
-[17:11:38] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[17:11:38] [Server thread/INFO]: 
-[17:11:38] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[17:11:39] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[17:11:39] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[17:11:39] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1997ms)
-[17:11:39] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.4.0
-[17:11:39] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
-[17:11:39] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
-[17:11:39] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[17:11:40] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
-[17:11:40] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
-[17:11:40] [Server thread/INFO]: [nLogin] Enabling nLogin v10.4.22
-[17:11:40] [Server thread/INFO]: [nLogin] Successful plugin core start (took 0.51s)
-[17:11:40] [Server thread/INFO]:           __             _       
-[17:11:40] [Server thread/INFO]:   _ __   / /  ___   __ _(_)_ __  
-[17:11:40] [Server thread/INFO]:  | '_ \ / /  / _ \ / _` | | '_ \ 
-[17:11:40] [Server thread/INFO]:  | | | / /__| (_) | (_| | | | | |
-[17:11:40] [Server thread/INFO]:  |_| |_\____/\___/ \__, |_|_| |_|
-[17:11:40] [Server thread/INFO]:                   |___/            
-[17:11:40] [Server thread/INFO]:  By: www.nickuc.com - V 10.4.23 DEVELOPMENT
-[17:11:40] [Server thread/INFO]:  
-[17:11:42] [Server thread/INFO]: [nAntiBot] Enabling nAntiBot v2.0.0
-[17:11:43] [Server thread/INFO]: [nAntiBot] Successful plugin core start (took 0.70s)
-[17:11:43] [Server thread/INFO]: [nAntiBot]           _         _   _   ___       _   
-[17:11:43] [Server thread/INFO]: [nAntiBot]   _ __   /_\  _ __ | |_(_) / __\ ___ | |_ 
-[17:11:43] [Server thread/INFO]: [nAntiBot]  | '_ \ //_\\| '_ \| __| |/__\/// _ \| __|
-[17:11:43] [Server thread/INFO]: [nAntiBot]  | | | /  _  \ | | | |_| / \/  \ (_) | |_ 
-[17:11:43] [Server thread/INFO]: [nAntiBot]  |_| |_\_/ \_/_| |_|\__|_\_____/\___/ \__|
-[17:11:43] [Server thread/INFO]: [nAntiBot]                                          
-[17:11:43] [Server thread/INFO]: [nAntiBot]  By: www.nickuc.com - V 2.0.0
-[17:11:43] [Server thread/INFO]: [nAntiBot] 
-[17:11:44] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[17:11:44] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[17:11:44] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[17:11:44] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[17:11:44] [Server thread/INFO]: Preparing level "world"
-[17:11:44] [Folia Async Scheduler Thread #0/INFO]: [nAntiBot] Connecting to the remote server antibot.nickuc.com...
-[17:11:46] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[17:11:47] [Server thread/INFO]: Preparing spawn area: 0%
-[17:11:47] [Server thread/INFO]: Preparing spawn area: 0%
-[17:11:47] [Server thread/INFO]: Preparing spawn area: 0%
-[17:11:47] [Server thread/INFO]: Preparing spawn area: 2%
-[17:11:47] [Server thread/INFO]: Time elapsed: 1877 ms
-[17:11:47] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[17:11:47] [Server thread/INFO]: Preparing spawn area: 0%
-[17:11:48] [Server thread/INFO]: Time elapsed: 267 ms
-[17:11:48] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[17:11:48] [Server thread/INFO]: Preparing spawn area: 0%
-[17:11:48] [Server thread/INFO]: Time elapsed: 185 ms
-[17:11:48] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.6
-[17:11:48] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
-[17:11:48] [Server thread/INFO]: [MythicLib] Enabling MythicLib v1.7.1-SNAPSHOT
-[17:11:48] [Server thread/INFO]: [MythicLib] Hooked onto TextDisplays (holograms)
-[17:11:48] [Server thread/INFO]: [MythicLib] Hooked onto ProtocolLib
-[17:11:48] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: mythiclib [1.7.1-SNAPSHOT]
-[17:11:48] [Server thread/INFO]: [MythicLib] Hooked onto PlaceholderAPI
-[17:11:48] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[17:11:49] [Server thread/INFO]: [MMOCore] Enabling MMOCore v1.13.1-SNAPSHOT
-[17:11:49] [Server thread/INFO]: [MMOCore] Hooked onto Vault
-[17:11:49] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: mmocore [1.13.1-SNAPSHOT]
-[17:11:49] [Server thread/INFO]: [MMOCore] Hooked onto PlaceholderAPI
-[17:11:49] [Server thread/WARN]: [MMOCore] Could not load condition 'region{name="swamp,second-region"}' from fishing drop table 'overriding-drop-table': Could not match any condition to 'region' in database
-[17:11:49] [Server thread/WARN]: [MMOCore] Could not load objective '2' from quest 'adv-begins': Could not match any objective to 'talkto' in database
-[17:11:49] [Server thread/WARN]: [MMOCore] Could not load objective '2' from quest 'fetch-mango': Could not match any objective to 'getitem' in database
-[17:11:49] [Server thread/WARN]: [MMOCore] Could not load objective '3' from quest 'tutorial': Could not match any objective to 'getitem' in database
-[17:11:49] [Server thread/WARN]: [MMOCore] Could not load objective '4' from quest 'tutorial': Could not match any objective to 'talkto' in database
-[17:11:49] [Server thread/WARN]: [MMOCore] Could not load objective '5' from quest 'tutorial': Could not match any objective to 'killmythicmob' in database
-[17:11:49] [Server thread/INFO]: [MMOCore] Hooked parties onto MMOCore
-[17:11:49] [Server thread/INFO]: [MMOCore] Hooked guilds onto MMOCore
-[17:11:50] [Server thread/INFO]: [Essentials] Enabling Essentials v2.22.0-dev+28-0aa25c8
-[17:11:50] [Server thread/WARN]: [Essentials] Beginning Adventure locale file conversion.
-[17:11:51] [Server thread/INFO]: [Essentials] Creating config from template: plugins\Essentials\config.yml
-[17:11:52] [Server thread/WARN]: [Essentials] Missing userdata folder, aborting
-[17:11:52] [Server thread/INFO]: [Essentials] Creating config from template: plugins\Essentials\kits.yml
-[17:11:52] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[17:11:52] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[17:11:52] [Server thread/INFO]: [Essentials] Starting Essentials ban format conversion
-[17:11:52] [Server thread/INFO]: [Essentials] Attempting to migrate ignore list to UUIDs
-[17:11:52] [Server thread/INFO]: [Essentials] Attempting to migrate legacy userdata keys to Configurate
-[17:11:52] [Server thread/INFO]: [Essentials] Done converting random teleport config.
-[17:11:52] [Server thread/INFO]: [Essentials] Creating config from template: plugins\Essentials\worth.yml
-[17:11:52] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
-[17:11:52] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
-[17:11:52] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
-[17:11:52] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
-[17:11:52] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
-[17:11:52] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
-[17:11:52] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
-[17:11:52] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
-[17:11:52] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
-[17:11:52] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
-[17:11:52] [Server thread/INFO]: [Essentials] Selected 1.21.4+ Sync Commands Provider as the provider for SyncCommandsProvider
-[17:11:52] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
-[17:11:52] [Server thread/INFO]: [Essentials] Selected Legacy Biome Name Provider as the provider for BiomeNameProvider
-[17:11:52] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
-[17:11:52] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
-[17:11:52] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
-[17:11:52] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
-[17:11:52] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
-[17:11:52] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
-[17:11:52] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
-[17:11:52] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
-[17:11:52] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
-[17:11:52] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
-[17:11:52] [Server thread/INFO]: [Essentials] Creating config from template: plugins\Essentials\tpr.yml
-[17:11:53] [Server thread/INFO]: [Essentials] Loaded 43880 items from items.json.
-[17:11:53] [Server thread/INFO]: [Essentials] Creating config from template: plugins\Essentials\custom_items.yml
-[17:11:53] [Server thread/INFO]: [Essentials] Using locale en_US
-[17:11:54] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[17:11:54] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[17:11:54] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
-[17:11:54] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
-[17:11:54] [Server thread/INFO]: [TAB] Enabling TAB v5.2.5
-[17:11:55] [Server thread/INFO]: [TAB] Enabled in 412ms
-[17:11:55] [Server thread/INFO]: [MMOItems] Enabling MMOItems v6.10.1-SNAPSHOT
-[17:11:55] [Server thread/INFO]: [MMOItems] Hooked onto MMOCore
-[17:11:55] [Server thread/INFO]: [MMOItems] Now using MMOCore as RPG core plugin
-[17:11:55] [Server thread/INFO]: [MMOItems Template Modifiers] Loading template modifiers, please wait..
-[17:11:55] [Server thread/INFO]: [MMOItems Item Templates] Loading item templates, please wait...
-[17:11:55] [Server thread/INFO]: [MMOItems] Hooked onto Vault
-[17:11:55] [Server thread/INFO]: [MMOItems] Loading crafting stations, please wait..
-[17:11:56] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: mmoitems [6.10.1-SNAPSHOT]
-[17:11:56] [Server thread/INFO]: [MMOItems] Hooked onto PlaceholderAPI
-[17:11:56] [Server thread/INFO]: [MMOItems] Loading recipes, please wait...
-[17:11:57] [Server thread/INFO]: [LevelledMobs] Enabling LevelledMobs v4.3.2.1 b125
-[17:11:57] [Server thread/INFO]: [LevelledMobs] Enabling commands
-[17:11:57] [Server thread/INFO]: [LevelledMobs] Building reflection cache, use simple names: true
-[17:11:57] [Server thread/INFO]: [LevelledMobs] Found Essentials, loading integration
-[17:11:57] [Server thread/INFO]: [LevelledMobs] Using NMS version 1.21.8 for nametag support
-[17:11:57] [Server thread/INFO]: [LevelledMobs] File Loader: Loading files...
-[17:11:57] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'settings.yml'...
-[17:11:57] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'messages.yml'...
-[17:11:57] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'externalplugins.yml'...
-[17:11:57] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'rules.yml'...
-[17:11:57] [Server thread/INFO]: [LevelledMobs] Current rules hash: 9b0f48e3273bb9cc29d2891ad33fb3410fec8cf1e77c2092ff670fd38f6d4ff5
-[17:11:57] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'customdrops.yml'...
-[17:11:57] [Server thread/INFO]: [LevelledMobs] Listeners: Registering event listeners...
-[17:11:57] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: LevelledMobs [4.3.2.1 b125]
-[17:11:57] [Server thread/INFO]: [LevelledMobs] Running misc procedures
-[17:11:57] [Server thread/INFO]: [LevelledMobs] Tasks: Starting async nametag auto update task...
-[17:11:57] [Server thread/INFO]: [LevelledMobs] Start-up complete (took 360ms)
-[17:11:57] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.22.0-dev+28-0aa25c8
-[17:11:57] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
-[17:11:57] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.22.0-dev+28-0aa25c8
-[17:11:57] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
-[17:11:57] [Server thread/INFO]: [spark] Starting background profiler...
-[17:11:57] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
-[17:11:58] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
-[17:11:58] [Server thread/INFO]: 0 placeholder hook(s) registered!
-[17:11:58] [Server thread/INFO]: Done preparing level "world" (13.117s)
-[17:11:58] [Server thread/INFO]: Running delayed init tasks
-[17:11:58] [Craft Scheduler Thread - 4 - Essentials/INFO]: [Essentials] Fetching version information...
-[17:11:58] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
-[17:11:58] [Server thread/INFO]: Done (43.997s)! For help, type "help"
-[17:11:58] [Craft Scheduler Thread - 15 - Vault/INFO]: [Vault] Checking for Updates ... 
-[17:11:59] [Craft Scheduler Thread - 15 - Vault/INFO]: [Vault] No new version available
-[17:12:00] [Craft Scheduler Thread - 4 - Essentials/WARN]: [Essentials] Unable to check your version! Self-built? Build information: id:'0aa25c8' branch:'2.x' isDev:true.
-[17:12:04] [pool-17-thread-2/INFO]: [nAntiBot] [Captcha] Captchas generated successfully. (RAM usage ≃ 8 MB [static only], total = 500, protocol count = 49, threads = 4, took 19.92s)
-[17:12:31] [User Authenticator #0/INFO]: UUID of player SmileDev is b6a0a340-39a3-383e-9040-132a79745be3
-[17:12:31] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [LuckPerms, nLogin, Essentials, ProtocolLib, MythicLib]
-[17:12:33] [Server thread/INFO]: SmileDev[/127.0.0.1:57675] logged in with entity id 28 at ([world]-99.65809660491011, 65.14632351596865, -361.73094633714055)
-[17:12:34] [Server thread/WARN]: [Essentials] File motd.txt does not exist. Creating one for you.
-[17:12:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3134ms or 62 ticks behind
-[17:12:46] [Folia Async Scheduler Thread #10/INFO]: [nLogin] The user SmileDev has successfully logged in.
-[17:14:18] [Server thread/INFO]: SmileDev lost connection: Disconnected
-[17:19:12] [Server thread/INFO]: Stopping the server
-[17:19:12] [Server thread/INFO]: Stopping server
-[17:19:12] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.22.0-dev+28-0aa25c8
-[17:19:12] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.22.0-dev+28-0aa25c8
-[17:19:12] [Server thread/INFO]: [LevelledMobs] Disabling LevelledMobs v4.3.2.1 b125
-[17:19:12] [Server thread/INFO]: [LevelledMobs] Unregistering commands
-[17:19:12] [Server thread/INFO]: [LevelledMobs] Tasks: Shutting down other async tasks...
-[17:19:12] [Server thread/INFO]: [LevelledMobs] Shut-down complete (took 5ms)
-[17:19:12] [Server thread/INFO]: [MMOItems] Disabling MMOItems v6.10.1-SNAPSHOT
-[17:19:12] [Server thread/INFO]: [MMOItems] Waiting for other threads, please wait...
-[17:19:12] [Craft Scheduler Thread - 9 - LevelledMobs/INFO]: [LevelledMobs] Nametag update queue Manager has exited
-[17:19:12] [Craft Scheduler Thread - 6 - LevelledMobs/INFO]: [LevelledMobs] Mob processing queue Manager has exited
-[17:19:12] [Server thread/INFO]: [nAntiBot] Disabling nAntiBot v2.0.0
-[17:19:12] [Server thread/INFO]: [nAntiBot] Successful plugin core shutdown (took 0.00s)
-[17:19:12] [Server thread/INFO]: [nAntiBot] Disconnecting from remote server...
-[17:19:14] [Server thread/INFO]: [nLogin] Disabling nLogin v10.4.22
-[17:19:14] [Server thread/INFO]: [nLogin] Successful plugin core shutdown (took 0.00s)
-[17:19:14] [Server thread/INFO]: [TAB] Disabling TAB v5.2.5
-[17:19:14] [Server thread/INFO]: [TAB] Disabled in 2ms
-[17:19:14] [Server thread/INFO]: [Essentials] Disabling Essentials v2.22.0-dev+28-0aa25c8
-[17:19:14] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
-[17:19:14] [Server thread/INFO]: [MMOCore] Disabling MMOCore v1.13.1-SNAPSHOT
-[17:19:14] [Server thread/INFO]: [MMOCore] Waiting for other threads, please wait...
-[17:19:14] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
-[17:19:14] [Server thread/INFO]: [MythicLib] Disabling MythicLib v1.7.1-SNAPSHOT
-[17:19:14] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.4.0
-[17:19:14] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.11
-[17:19:14] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[17:19:14] [Server thread/INFO]: [LuckPerms] Closing storage...
-[17:19:14] [Server thread/INFO]: [LuckPerms] Goodbye!
-[17:19:14] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.6
-[17:19:14] [Server thread/INFO]: Saving players
-[17:19:14] [Server thread/INFO]: Saving worlds
-[17:19:14] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[17:19:14] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[17:19:14] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[17:19:14] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[17:19:14] [Server thread/INFO]: [ChunkHolderManager] Saved 1 block chunks, 25 entity chunks, 0 poi chunks in world 'world' in 0.05s
-[17:19:14] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
-[17:19:14] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
-[17:19:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[17:19:15] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[17:19:15] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[17:19:15] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[17:19:15] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 2 entity chunks, 0 poi chunks in world 'world_nether' in 0.04s
-[17:19:15] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
-[17:19:15] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
-[17:19:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[17:19:15] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[17:19:15] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[17:19:15] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[17:19:15] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.04s
-[17:19:15] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
-[17:19:15] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
-[17:19:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[17:19:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[17:19:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[17:19:15] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[17:19:15] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
-[17:19:15] [Server thread/INFO]: All RegionFile I/O tasks to complete
-[17:19:15] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[17:19:15] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[13:32:51] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[13:32:54] [ServerMain/INFO]: Loaded 1407 recipes
+[13:32:54] [ServerMain/INFO]: Loaded 1520 advancements
+[13:32:54] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[13:32:55] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 651.7ms
+[13:32:55] [Server thread/INFO]: Starting minecraft server version 1.21.8
+[13:32:55] [Server thread/INFO]: Loading properties
+[13:32:56] [Server thread/INFO]: This server is running Paper version 1.21.8-60-main@29c8822 (2025-09-06T21:49:13Z) (Implementing API version 1.21.8-R0.1-SNAPSHOT)
+[13:32:56] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[13:32:56] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[13:32:56] [Server thread/INFO]: Using 4 threads for Netty based IO
+[13:32:57] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[13:32:57] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[13:32:57] [Server thread/INFO]: Default game type: SURVIVAL
+[13:32:57] [Server thread/INFO]: Generating keypair
+[13:32:57] [Server thread/INFO]: Starting Minecraft server on *:25565
+[13:32:57] [Server thread/INFO]: Using default channel type
+[13:32:57] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[13:32:57] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[13:33:00] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.6
+[13:33:00] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.11
+[13:33:00] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[13:33:00] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.4.0
+[13:33:01] [Server thread/INFO]: [MythicLib] Loading server plugin MythicLib v1.7.1-SNAPSHOT
+[13:33:01] [Server thread/INFO]: [MythicLib] Plugin file is called 'MythicLib-dist-1.7.1-20250911.223617-39.jar'
+[13:33:01] [Server thread/INFO]: [MythicLib] Detected Bukkit Version: v1_21_R5
+[13:33:01] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[13:33:01] [Server thread/INFO]: [MMOCore] Loading server plugin MMOCore v1.13.1-SNAPSHOT
+[13:33:01] [Server thread/INFO]: [MMOCore] Plugin file is called 'MMOCore-1.13.1-SNAPSHOT.jar'
+[13:33:01] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.22.0-dev+28-0aa25c8
+[13:33:01] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.2.5
+[13:33:01] [Server thread/INFO]: [nLogin] Loading server plugin nLogin v10.4.22
+[13:33:01] [Server thread/INFO]: [nAntiBot] Loading server plugin nAntiBot v2.0.0
+[13:33:02] [Server thread/INFO]: [MMOItems] Loading server plugin MMOItems v6.10.1-SNAPSHOT
+[13:33:02] [Server thread/INFO]: [MMOItems] Plugin file is called 'MMOItems-6.10.1-SNAPSHOT.jar'
+[13:33:02] [Server thread/INFO]: [MMOItems Template Modifiers] Preloading template modifiers, please wait..
+[13:33:02] [Server thread/INFO]: [MMOItems Item Templates] Preloading item templates, please wait..
+[13:33:02] [Server thread/INFO]: [LevelledMobs] Loading server plugin LevelledMobs v4.3.2.1 b125
+[13:33:02] [Server thread/INFO]: [LevelledMobs] Loading commands
+[13:33:02] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.22.0-dev+28-0aa25c8
+[13:33:02] [Server thread/INFO]: [EssentialsChat] Loading server plugin EssentialsChat v2.22.0-dev+28-0aa25c8
+[13:33:02] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[13:33:02] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.11
+[13:33:03] [Server thread/INFO]:         __    
+[13:33:03] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.11
+[13:33:03] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[13:33:03] [Server thread/INFO]: 
+[13:33:03] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[13:33:04] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[13:33:04] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[13:33:04] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1553ms)
+[13:33:04] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.4.0
+[13:33:04] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[13:33:04] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[13:33:04] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[13:33:04] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[13:33:04] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[13:33:04] [Server thread/INFO]: [nLogin] Enabling nLogin v10.4.22
+[13:33:05] [Server thread/INFO]: [nLogin] Successful plugin core start (took 0.45s)
+[13:33:05] [Server thread/INFO]:           __             _       
+[13:33:05] [Server thread/INFO]:   _ __   / /  ___   __ _(_)_ __  
+[13:33:05] [Server thread/INFO]:  | '_ \ / /  / _ \ / _` | | '_ \ 
+[13:33:05] [Server thread/INFO]:  | | | / /__| (_) | (_| | | | | |
+[13:33:05] [Server thread/INFO]:  |_| |_\____/\___/ \__, |_|_| |_|
+[13:33:05] [Server thread/INFO]:                   |___/            
+[13:33:05] [Server thread/INFO]:  By: www.nickuc.com - V 10.4.23 DEVELOPMENT
+[13:33:05] [Server thread/INFO]:  
+[13:33:06] [Server thread/INFO]: [nAntiBot] Enabling nAntiBot v2.0.0
+[13:33:06] [Server thread/INFO]: [nAntiBot] Successful plugin core start (took 0.36s)
+[13:33:06] [Server thread/INFO]: [nAntiBot]           _         _   _   ___       _   
+[13:33:06] [Server thread/INFO]: [nAntiBot]   _ __   /_\  _ __ | |_(_) / __\ ___ | |_ 
+[13:33:06] [Server thread/INFO]: [nAntiBot]  | '_ \ //_\\| '_ \| __| |/__\/// _ \| __|
+[13:33:06] [Server thread/INFO]: [nAntiBot]  | | | /  _  \ | | | |_| / \/  \ (_) | |_ 
+[13:33:06] [Server thread/INFO]: [nAntiBot]  |_| |_\_/ \_/_| |_|\__|_\_____/\___/ \__|
+[13:33:06] [Server thread/INFO]: [nAntiBot]                                          
+[13:33:06] [Server thread/INFO]: [nAntiBot]  By: www.nickuc.com - V 2.0.0
+[13:33:06] [Server thread/INFO]: [nAntiBot] 
+[13:33:07] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[13:33:07] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[13:33:07] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[13:33:07] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[13:33:07] [Server thread/INFO]: Preparing level "world"
+[13:33:07] [Folia Async Scheduler Thread #3/INFO]: [nAntiBot] Connecting to the remote server antibot.nickuc.com...
+[13:33:07] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[13:33:08] [Server thread/INFO]: Preparing spawn area: 0%
+[13:33:08] [Server thread/INFO]: Preparing spawn area: 2%
+[13:33:08] [Server thread/INFO]: Preparing spawn area: 2%
+[13:33:09] [Server thread/INFO]: Time elapsed: 1148 ms
+[13:33:09] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[13:33:09] [Server thread/INFO]: Preparing spawn area: 0%
+[13:33:09] [Server thread/INFO]: Time elapsed: 178 ms
+[13:33:09] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[13:33:09] [Server thread/INFO]: Preparing spawn area: 0%
+[13:33:09] [Server thread/INFO]: Time elapsed: 113 ms
+[13:33:09] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.6
+[13:33:09] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[13:33:09] [Server thread/INFO]: [MythicLib] Enabling MythicLib v1.7.1-SNAPSHOT
+[13:33:09] [Server thread/INFO]: [MythicLib] Hooked onto TextDisplays (holograms)
+[13:33:09] [Server thread/INFO]: [MythicLib] Hooked onto ProtocolLib
+[13:33:09] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: mythiclib [1.7.1-SNAPSHOT]
+[13:33:09] [Server thread/INFO]: [MythicLib] Hooked onto PlaceholderAPI
+[13:33:09] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[13:33:10] [Server thread/INFO]: [MMOCore] Enabling MMOCore v1.13.1-SNAPSHOT
+[13:33:10] [Server thread/INFO]: [MMOCore] Hooked onto Vault
+[13:33:10] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: mmocore [1.13.1-SNAPSHOT]
+[13:33:10] [Server thread/INFO]: [MMOCore] Hooked onto PlaceholderAPI
+[13:33:10] [Server thread/WARN]: [MMOCore] Could not load condition 'region{name="swamp,second-region"}' from fishing drop table 'overriding-drop-table': Could not match any condition to 'region' in database
+[13:33:10] [Server thread/WARN]: [MMOCore] Could not load objective '2' from quest 'adv-begins': Could not match any objective to 'talkto' in database
+[13:33:10] [Server thread/WARN]: [MMOCore] Could not load objective '2' from quest 'fetch-mango': Could not match any objective to 'getitem' in database
+[13:33:10] [Server thread/WARN]: [MMOCore] Could not load objective '3' from quest 'tutorial': Could not match any objective to 'getitem' in database
+[13:33:10] [Server thread/WARN]: [MMOCore] Could not load objective '4' from quest 'tutorial': Could not match any objective to 'talkto' in database
+[13:33:10] [Server thread/WARN]: [MMOCore] Could not load objective '5' from quest 'tutorial': Could not match any objective to 'killmythicmob' in database
+[13:33:10] [Server thread/INFO]: [MMOCore] Hooked parties onto MMOCore
+[13:33:10] [Server thread/INFO]: [MMOCore] Hooked guilds onto MMOCore
+[13:33:10] [Server thread/INFO]: [Essentials] Enabling Essentials v2.22.0-dev+28-0aa25c8
+[13:33:11] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[13:33:11] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[13:33:11] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
+[13:33:11] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
+[13:33:11] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
+[13:33:11] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[13:33:11] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
+[13:33:11] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
+[13:33:11] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
+[13:33:11] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
+[13:33:11] [Server thread/INFO]: [Essentials] Selected Legacy Biome Name Provider as the provider for BiomeNameProvider
+[13:33:11] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[13:33:11] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
+[13:33:11] [Server thread/INFO]: [Essentials] Selected 1.21.4+ Sync Commands Provider as the provider for SyncCommandsProvider
+[13:33:11] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
+[13:33:11] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
+[13:33:11] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
+[13:33:11] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[13:33:11] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+[13:33:11] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
+[13:33:11] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
+[13:33:11] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
+[13:33:11] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[13:33:11] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+[13:33:11] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[13:33:12] [Server thread/INFO]: [Essentials] Loaded 43880 items from items.json.
+[13:33:12] [Server thread/INFO]: [Essentials] Using locale en_US
+[13:33:12] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[13:33:12] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[13:33:12] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[13:33:12] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[13:33:12] [Server thread/INFO]: [TAB] Enabling TAB v5.2.5
+[13:33:13] [Server thread/INFO]: [TAB] Enabled in 366ms
+[13:33:13] [Server thread/INFO]: [MMOItems] Enabling MMOItems v6.10.1-SNAPSHOT
+[13:33:13] [Server thread/INFO]: [MMOItems] Hooked onto MMOCore
+[13:33:13] [Server thread/INFO]: [MMOItems] Now using MMOCore as RPG core plugin
+[13:33:13] [Server thread/INFO]: [MMOItems Template Modifiers] Loading template modifiers, please wait..
+[13:33:13] [Server thread/INFO]: [MMOItems Item Templates] Loading item templates, please wait...
+[13:33:13] [Server thread/INFO]: [MMOItems] Hooked onto Vault
+[13:33:13] [Server thread/INFO]: [MMOItems] Loading crafting stations, please wait..
+[13:33:13] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: mmoitems [6.10.1-SNAPSHOT]
+[13:33:13] [Server thread/INFO]: [MMOItems] Hooked onto PlaceholderAPI
+[13:33:13] [Server thread/INFO]: [MMOItems] Loading recipes, please wait...
+[13:33:14] [Server thread/INFO]: [LevelledMobs] Enabling LevelledMobs v4.3.2.1 b125
+[13:33:14] [Server thread/INFO]: [LevelledMobs] Enabling commands
+[13:33:14] [Server thread/INFO]: [LevelledMobs] Building reflection cache, use simple names: true
+[13:33:14] [Server thread/INFO]: [LevelledMobs] Found Essentials, loading integration
+[13:33:14] [Server thread/INFO]: [LevelledMobs] Using NMS version 1.21.8 for nametag support
+[13:33:14] [Server thread/INFO]: [LevelledMobs] File Loader: Loading files...
+[13:33:14] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'settings.yml'...
+[13:33:14] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'messages.yml'...
+[13:33:14] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'externalplugins.yml'...
+[13:33:14] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'rules.yml'...
+[13:33:14] [Server thread/INFO]: [LevelledMobs] Current rules hash: 9b0f48e3273bb9cc29d2891ad33fb3410fec8cf1e77c2092ff670fd38f6d4ff5
+[13:33:14] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'customdrops.yml'...
+[13:33:14] [Server thread/INFO]: [LevelledMobs] Listeners: Registering event listeners...
+[13:33:14] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: LevelledMobs [4.3.2.1 b125]
+[13:33:14] [Server thread/INFO]: [LevelledMobs] Running misc procedures
+[13:33:14] [Server thread/INFO]: [LevelledMobs] Tasks: Starting async nametag auto update task...
+[13:33:14] [Server thread/INFO]: [LevelledMobs] Start-up complete (took 346ms)
+[13:33:14] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.22.0-dev+28-0aa25c8
+[13:33:14] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
+[13:33:14] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.22.0-dev+28-0aa25c8
+[13:33:14] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
+[13:33:14] [Server thread/INFO]: [spark] Starting background profiler...
+[13:33:14] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
+[13:33:15] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[13:33:15] [Server thread/INFO]: Done preparing level "world" (7.681s)
+[13:33:15] [Server thread/INFO]: Running delayed init tasks
+[13:33:15] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[13:33:15] [Craft Scheduler Thread - 14 - Vault/INFO]: [Vault] Checking for Updates ... 
+[13:33:15] [Craft Scheduler Thread - 4 - Essentials/INFO]: [Essentials] Fetching version information...
+[13:33:15] [Server thread/INFO]: 0 placeholder hook(s) registered!
+[13:33:15] [Server thread/INFO]: Done (31.629s)! For help, type "help"
+[13:33:17] [Craft Scheduler Thread - 14 - Vault/INFO]: [Vault] No new version available
+[13:33:21] [pool-16-thread-1/INFO]: [nAntiBot] [Captcha] Captchas generated successfully. (RAM usage ≃ 8 MB [static only], total = 500, protocol count = 49, threads = 4, took 14.57s)
+[13:34:50] [Server thread/INFO]: Stopping the server
+[13:34:50] [Server thread/INFO]: Stopping server
+[13:34:50] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.22.0-dev+28-0aa25c8
+[13:34:50] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.22.0-dev+28-0aa25c8
+[13:34:50] [Server thread/INFO]: [LevelledMobs] Disabling LevelledMobs v4.3.2.1 b125
+[13:34:50] [Server thread/INFO]: [LevelledMobs] Unregistering commands
+[13:34:50] [Server thread/INFO]: [LevelledMobs] Tasks: Shutting down other async tasks...
+[13:34:50] [Server thread/INFO]: [LevelledMobs] Shut-down complete (took 0ms)
+[13:34:50] [Server thread/INFO]: [MMOItems] Disabling MMOItems v6.10.1-SNAPSHOT
+[13:34:50] [Server thread/INFO]: [MMOItems] Waiting for other threads, please wait...
+[13:34:50] [Craft Scheduler Thread - 7 - LevelledMobs/INFO]: [LevelledMobs] Mob processing queue Manager has exited
+[13:34:50] [Craft Scheduler Thread - 9 - LevelledMobs/INFO]: [LevelledMobs] Nametag update queue Manager has exited
+[13:34:50] [Server thread/INFO]: [nAntiBot] Disabling nAntiBot v2.0.0
+[13:34:50] [Server thread/INFO]: [nAntiBot] Successful plugin core shutdown (took 0.00s)
+[13:34:50] [Server thread/INFO]: [nAntiBot] Disconnecting from remote server...
+[13:34:52] [Server thread/INFO]: [nLogin] Disabling nLogin v10.4.22
+[13:34:52] [Server thread/INFO]: [nLogin] Successful plugin core shutdown (took 0.00s)
+[13:34:52] [Server thread/INFO]: [TAB] Disabling TAB v5.2.5
+[13:34:52] [Server thread/INFO]: [TAB] Disabled in 0ms
+[13:34:52] [Server thread/INFO]: [Essentials] Disabling Essentials v2.22.0-dev+28-0aa25c8
+[13:34:52] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
+[13:34:52] [Server thread/INFO]: [MMOCore] Disabling MMOCore v1.13.1-SNAPSHOT
+[13:34:52] [Server thread/INFO]: [MMOCore] Waiting for other threads, please wait...
+[13:34:52] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[13:34:52] [Server thread/INFO]: [MythicLib] Disabling MythicLib v1.7.1-SNAPSHOT
+[13:34:52] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.4.0
+[13:34:52] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.11
+[13:34:52] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[13:34:52] [Server thread/INFO]: [LuckPerms] Closing storage...
+[13:34:52] [Server thread/INFO]: [LuckPerms] Goodbye!
+[13:34:52] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.6
+[13:34:52] [Server thread/INFO]: Saving players
+[13:34:52] [Server thread/INFO]: Saving worlds
+[13:34:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[13:34:52] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[13:34:52] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[13:34:52] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[13:34:52] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world' in 0.46s
+[13:34:52] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[13:34:52] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[13:34:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[13:34:53] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[13:34:53] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[13:34:53] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[13:34:53] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_nether' in 0.17s
+[13:34:53] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[13:34:53] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[13:34:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[13:34:53] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[13:34:53] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[13:34:53] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[13:34:53] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_the_end' in 0.12s
+[13:34:53] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[13:34:53] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[13:34:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[13:34:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[13:34:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[13:34:53] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[13:34:53] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[13:34:53] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[13:34:53] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[13:34:53] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
