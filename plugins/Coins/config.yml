@@ -1,0 +1,246 @@
+# # # # # # # # # # # # # # # # # # # # # # # #
+#  Cấu hình cho Coins 1.x  (bởi JustEli)     #
+# # # # # # # # # # # # # # # # # # # # # # # #
+# Tệp cấu hình này được tạo cho Coins phiên bản 1.13.1.
+
+# Dự án này được phát triển trong thời gian rảnh của tác giả.
+# Nếu bạn thích plugin, hãy cân nhắc quyên góp tại https://paypal.me/justeli
+
+# Nếu bạn cần hỗ trợ, hãy tham gia server Discord hỗ trợ: https://discord.gg/fVwCETj
+# Đọc FAQ (#coins-faq) trước khi hỏi để tăng cơ hội được giúp đỡ nhanh.
+
+#  #  #  #  #  #  #  #
+#  Chung & Ngôn ngữ   #
+#  #  #  #  #  #  #  #
+
+# Hiển thị thông báo cập nhật plugin khi khởi động nếu plugin đã lỗi thời.
+check-for-updates: true
+
+# Plugin nên sử dụng ngôn ngữ nào? Và ký hiệu tiền tệ của server là gì?
+# Tất cả các ngôn ngữ có thể tìm thấy trong thư mục 'languages' bên trong plugin.
+# Ngôn ngữ có sẵn mặc định: English, Dutch, German, French, Spanish,
+# Swedish, Italian, Chinese, Hungarian, Russian và Turkish.
+language: 'vietnam'
+currency-symbol: 'VND'
+
+# Thông báo này được gửi dưới dạng action bar (dưới cùng màn hình người chơi) theo mặc định,
+# thông báo cho người chơi biết họ đã nhặt được bao nhiêu tiền. Biến '{currency}'
+# sẽ được thay bằng giá trị cấu hình tại 'currency-symbol'.
+pickup-message: '&2+ &a{currency}{amount}'
+pickup-message-position: 'actionbar' # other options: 'subtitle', 'title', 'chat'
+
+# Tiền tệ từ plugin nên hiển thị bao nhiêu chữ số thập phân? Đặt bằng 0 để làm tròn
+# tiền. Đặt 1 sẽ hiển thị ví dụ: $2.3 $5.8 $8.0. Đặt 2 sẽ hiển thị: $5.23, $3.70, $6.99.
+# Thiết lập này sẽ bị bỏ qua (và đặt về 0) nếu 'drop-each-coin' được bật.
+money-decimals: 0
+
+# Các ký tự dùng để phân tách phần thập phân và nhóm chữ số (hàng nghìn).
+# Giá trị mặc định (dấu chấm và dấu phẩy) sẽ định dạng số ví dụ: 1,000.6 hoặc 2,100.90 (tùy
+# vào thiết lập `money-decimals`). Ký tự phân cách nhóm có thể để trống nếu muốn.
+digit-decimal-separator: '.'
+digit-group-separator: ','
+
+#  #  #  #  #  #  #  #
+#  Thuộc tính Đồng xu  #
+#  #  #  #  #  #  #  #
+
+# Tại đây bạn có thể cấu hình tên đồng xu rơi và đồng xu đã rút. Mã màu HEX
+# cũng hỗ trợ với định dạng: '&#xxxxxx', trong đó x = [0-9a-f].
+# Tham khảo mã màu: http://minecraft.gamepedia.com/Formatting_codes
+dropped-coin-name: '&6Coin'
+withdrawn-coin-names:
+  singular: '&e{amount} &6Coin'
+  plural: '&e{amount} &6Coins'
+
+# Vật phẩm (material) mà đồng xu sẽ sử dụng.
+# Danh sách material: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+coin-item: 'sunflower'
+
+# Bạn cũng có thể đặt một texture tùy chỉnh cho đồng xu dưới dạng skull. Nếu điền
+# trường này, plugin sẽ bỏ qua 'coin-item'. Dán giá trị texture (phần 'Other > Value')
+# từ trang ví dụ, bắt đầu bằng "eyJ0ZXh0dXJl[...]". UUID của skull luôn là:
+# 00000001-0001-0001-0001-000000000002.
+# Ví dụ skull: https://minecraft-heads.com/custom-heads/decoration/3005-money-bag
+skull-texture: ''
+
+# Đồng xu có hiệu ứng sáng (enchanted glow) hay không?
+enchanted-coin: true
+
+# Giá trị này đặt custom model data cho đồng xu. Dùng cho texture tùy chỉnh.
+# Mặc định: 0 (vô hiệu). Thường chỉ cần khi bạn dùng resource pack tùy chỉnh.
+custom-model-data: 0
+
+##  Hành vi Đồng xu  ##
+
+# Giá trị tiền của một đồng xu. Tạo một số ngẫu nhiên giữa 'from' và 'to',
+# số này sẽ được cộng vào người chơi khi họ nhặt đồng xu.
+money-amount:
+  from: 3000.00
+  to: 7000.00
+
+# Ngăn hopper hút các đồng xu rơi (đồng xu đã rút vẫn có thể bị hopper hút).
+disable-hoppers: true
+
+# Mặc định plugin rơi 1 đồng xu có giá trị bằng 'money-amount'. Nếu bật tùy chọn
+# này, plugin sẽ rơi số lượng đồng xu bằng giá trị 'money-amount' (mỗi đồng xu có giá trị 1).
+# Ví dụ: nếu 'drop-each-coin' = true và từ 3 đến 7, mob sẽ rơi 3 đến 7 đồng xu, mỗi đồng trị giá 1.
+drop-each-coin: false
+
+# Đồng xu có thể xếp chồng (stack) không? Đồng xu xếp chồng sẽ được tính tổng giá trị
+# bằng cách nhân số lượng với giá trị; không xếp chồng chỉ để hiệu ứng. Tùy chọn này
+# sẽ bị bỏ qua (và đặt false) nếu 'drop-each-coin' = true.
+stack-coins: true
+
+# Có chơi âm thanh khi nhặt đồng xu không? Nếu có, chọn tên âm thanh, pitch và volume.
+# Danh sách âm thanh: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Sound.html
+pickup-sound: true
+sound-name: 'ITEM_ARMOR_EQUIP_GOLD'
+sound-pitch: 0.30
+sound-volume: 0.50
+
+# Liệt kê các world mà bạn muốn tắt Coins. Tên world phân biệt chữ hoa/thường!
+# Ví dụ tắt hai world 'creative' và 'plots': disabledWorlds: [plots, creative]
+disabled-worlds: []
+
+# Cho phép người chơi đổi tên đồng xu. Chỉ hoạt động nếu 'detect-legacy-coins' = false.
+# Đổi tên đồng xu (không phải legacy) sẽ không làm mất giá trị của nó.
+allow-name-change: false
+
+# Cho phép người chơi sử dụng đồng xu trong bàn chế tạo (craft/smelt). Đồng xu sẽ mất giá trị.
+allow-modification: false
+
+# Tăng giá trị rơi khi dùng enchant Looting hoặc Fortune. Giá trị cấu hình là phần trăm
+# trên mỗi cấp enchant. Mặc định 0.05 = 5%. Ví dụ Looting I = +5%, Looting II = +10%.
+enchant-increment: 0.05
+
+##  Đồng xu rơi từ mob  ##
+
+# Mob hung dữ (hostile) và hòa bình (passive) có rơi đồng xu không? Mặc định mob hung dữ rơi,
+# mob passive thì không.
+hostile-drop: true
+passive-drop: false
+
+# Tỷ lệ tối thiểu phần trăm sát thương người chơi phải gây ra để mob rơi đồng xu.
+# Hữu ích cho grinder một hit khi mob chịu sát thương rơi. Giá trị từ 0.00 đến 1.00.
+percentage-player-hit: 0.80
+
+# Đặt số lần rơi đồng xu tối đa (từ mob) cho mỗi vị trí block trong khoảng thời gian.
+# Hữu ích để ngăn lặp lại exploits trên grinders. Mặc định 1: sau 1 kill tại x/y/z sẽ
+# không rơi thêm trong số giờ được đặt ở 'location-limit-hours'. Tắt bằng cách đặt 0.
+# Tăng nếu dùng mob stacker. (1 phút = 0.016667)
+limit-for-location: 1
+location-limit-hours: 1.0
+
+# Xác suất để đồng xu rơi sau khi mob bị giết. Mặc định 90%. Giá trị từ 0.00 đến 1.00.
+drop-chance: 0.90
+
+# Mob sinh ra từ spawner có rơi đồng xu không? Mặc định là không. Nếu false, mob
+# vẫn có thể rơi nếu người chơi có quyền 'coins.spawner'.
+spawner-drop: false
+
+# Có rơi đồng xu khi mob chết không phải do người chơi (ví dụ chết tự nhiên),
+# ngoại trừ de-spawn. Nếu bật, mọi nguyên nhân chết đều có thể rơi đồng xu.
+drop-with-any-death: false
+
+# Bạn có thể thêm hệ số (multiplier) cho từng loại mob ở đây. Mặc định, mob có
+# rơi sẽ rơi 1 đồng. Ender Dragon được thêm sẵn: khi bị giết sẽ rơi 20 đồng.
+# Đặt một mob về 0 (ví dụ 'bat': 0) để tắt rơi đồng xu cho loại đó. Nếu không muốn
+# dùng multiplier, đặt 'mob-multiplier: {}'. Bạn cũng có thể thêm mob vốn không rơi
+# để chúng vẫn rơi. Ví dụ nếu 'passive-drop' = false nhưng muốn bò và cừu vẫn rơi,
+# thêm chúng vào đây.
+# Danh sách mob: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/entity/EntityType.html
+mob-multiplier:
+  'ender dragon': 20
+  'wither': 10
+
+# Ngăn slimes và magma cubes sinh ra từ tách (splits) rơi đồng xu. Nếu false,
+# người chơi có thể dễ dàng farm nhiều đồng trong slime chunks.
+prevent-splits: true
+
+##  Đồng xu rơi khi người chơi chết  ##
+
+# Khi một người chơi bị giết bởi người khác, có nên rơi đồng xu không?
+player-drop: true
+
+# Đồng xu có KHÔNG rơi nếu cả hai người chơi có cùng địa chỉ IP không? Nếu bật,
+# không rơi đồng xu khi hai người chơi từ cùng một máy, ngăn spin/kill tự spam để
+# kiếm tiền vô hạn. (Hoặc tắt nếu server local/bạn muốn khác.)
+prevent-alts: true
+
+##  Đồng xu rơi từ khối (block)  ##
+
+# Rơi đồng xu khi khai thác block. Tùy chọn này chỉ hoạt động nếu block rơi
+# một item khác với block (ví dụ Diamond Ore rơi Diamond khi không dùng Silk Touch).
+# Nếu dùng Silk Touch, sẽ không hoạt động vì người chơi có thể đặt lại block và khai thác lại.
+# Số phía sau tên block là hệ số nhân cho số đồng xu rơi.
+# Danh sách material: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+block-drops:
+  'diamond ore': 2
+  'deepslate diamond ore': 3
+  'spawner': 5 # Có thể cần loại dòng này nếu bạn dùng SilkSpawners.
+  'emerald ore': 2
+  'deepslate emerald ore': 2
+  'gold ore': 1
+  'deepslate gold ore': 1
+  'nether gold ore': 1
+  'iron ore': 1
+  'deepslate iron ore': 1
+  'lapis ore': 1
+  'deepslate lapis ore': 1
+  'copper ore': 1
+  'deepslate copper ore': 1
+  'nether quartz ore': 1
+  'coal ore': 1
+  'deepslate coal ore': 1
+  'redstone ore': 1
+  'deepslate redstone ore': 1
+
+# Xác suất rơi cho mỗi block khi khai thác. Đặt 0 để tắt rơi đồng từ block.
+mine-percentage: 0.50
+
+##  Rút tiền (Withdraw)  ##
+
+# Cho phép người chơi dùng /withdraw để nhận đồng xu vật lý có thể cất giữ. Điều này
+# cho phép lưu trữ tiền ngoài số dư tài khoản. Khi đồng xu rút bị nhặt lại sau khi rơi,
+# nó sẽ được gửi vào tài khoản người chơi. Có thể nhấp phải để gửi trực tiếp.
+enable-withdraw: true
+max-withdraw-amount: 10000.00
+
+# Đồng xu rút ở các phiên bản cũ xử lý khác biệt, có thể gây exploit khi kết hợp
+# với plugin khác. Giữ tùy chọn này false để tránh rủi ro. Nếu true, đồng xu cũ sẽ vẫn hoạt động.
+detect-legacy-coins: false
+
+# Thông báo cho người chơi biết họ đã rút bao nhiêu tiền.
+withdraw-message: '&4- &c{currency}{amount}'
+withdraw-message-position: 'actionbar' # other options: 'subtitle', 'title', 'chat'
+
+##  Tích hợp (Hooks)  ##
+
+# MythicMobs :: Trong cấu hình MythicMobs bạn có thể định nghĩa rơi đồng xu tùy chỉnh.
+# Sử dụng drop tên 'coins' trong config MythicMobs để rơi đồng xu từ plugin này.
+# Nếu đã cấu hình drop tùy chỉnh trong MythicMobs, bạn có thể tắt tính năng rơi
+# do plugin Coins quản lý bên dưới để tránh trùng lặp.
+disable-mythic-mob-handling: false
+
+##  Tiền khi người chơi chết  ##
+
+# Người chơi có mất tiền khi chết không? Plugin sẽ hiển thị một title (giữa màn hình)
+# cho biết số tiền họ đã mất khi chết.
+lose-on-death: true
+
+# Nếu có, sẽ trừ bao nhiêu? Mặc định là một số ngẫu nhiên giữa 10 và 30.
+money-taken:
+  from: 10.00
+  to: 30.00
+
+# Plugin trừ theo *một số tiền cố định* hay theo *tỷ lệ phần trăm* của số dư?
+# Nếu take-percentage: false và đặt 10-30 thì sẽ trừ $10 đến $30.
+# Nếu take-percentage: true và đặt 10-30 thì sẽ trừ 10% đến 30% số dư.
+take-percentage: false
+
+# Tiền sẽ rơi xuống hay biến mất? Mặc định là biến mất.
+drop-on-death: false
+
+# Định dạng thông báo hiển thị ở giữa màn hình (mặc định).
+death-message: '&4- &c{currency}{amount}'
+death-message-position: 'subtitle' # other options: 'actionbar', 'title', 'chat'

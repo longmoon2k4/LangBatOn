@@ -1,259 +1,620 @@
-[13:32:44] [ServerMain/INFO]: [bootstrap] Running Java 21 (Java HotSpot(TM) 64-Bit Server VM 21.0.7+8-LTS-245; Oracle Corporation null) on Windows 11 10.0 (amd64)
-[13:32:44] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.8-60-main@29c8822 (2025-09-06T21:49:13Z) for Minecraft 1.21.8
-[13:32:45] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[13:32:45] [ServerMain/INFO]: [PluginInitializerManager] Initialized 14 plugins
-[13:32:45] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (14):
- - Essentials (2.22.0-dev+28-0aa25c8), EssentialsChat (2.22.0-dev+28-0aa25c8), EssentialsSpawn (2.22.0-dev+28-0aa25c8), LevelledMobs (4.3.2.1 b125), LuckPerms (5.5.11), MMOCore (1.13.1-SNAPSHOT), MMOItems (6.10.1-SNAPSHOT), MythicLib (1.7.1-SNAPSHOT), PlaceholderAPI (2.11.6), ProtocolLib (5.4.0), TAB (5.2.5), Vault (1.7.3-b131), nAntiBot (2.0.0), nLogin (10.4.22)
-[13:32:51] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[13:32:54] [ServerMain/INFO]: Loaded 1407 recipes
-[13:32:54] [ServerMain/INFO]: Loaded 1520 advancements
-[13:32:54] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[13:32:55] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 651.7ms
-[13:32:55] [Server thread/INFO]: Starting minecraft server version 1.21.8
-[13:32:55] [Server thread/INFO]: Loading properties
-[13:32:56] [Server thread/INFO]: This server is running Paper version 1.21.8-60-main@29c8822 (2025-09-06T21:49:13Z) (Implementing API version 1.21.8-R0.1-SNAPSHOT)
-[13:32:56] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[13:32:56] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[13:32:56] [Server thread/INFO]: Using 4 threads for Netty based IO
-[13:32:57] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[13:32:57] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
-[13:32:57] [Server thread/INFO]: Default game type: SURVIVAL
-[13:32:57] [Server thread/INFO]: Generating keypair
-[13:32:57] [Server thread/INFO]: Starting Minecraft server on *:25565
-[13:32:57] [Server thread/INFO]: Using default channel type
-[13:32:57] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[13:32:57] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[13:33:00] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.6
-[13:33:00] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.11
-[13:33:00] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[13:33:00] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.4.0
-[13:33:01] [Server thread/INFO]: [MythicLib] Loading server plugin MythicLib v1.7.1-SNAPSHOT
-[13:33:01] [Server thread/INFO]: [MythicLib] Plugin file is called 'MythicLib-dist-1.7.1-20250911.223617-39.jar'
-[13:33:01] [Server thread/INFO]: [MythicLib] Detected Bukkit Version: v1_21_R5
-[13:33:01] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
-[13:33:01] [Server thread/INFO]: [MMOCore] Loading server plugin MMOCore v1.13.1-SNAPSHOT
-[13:33:01] [Server thread/INFO]: [MMOCore] Plugin file is called 'MMOCore-1.13.1-SNAPSHOT.jar'
-[13:33:01] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.22.0-dev+28-0aa25c8
-[13:33:01] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.2.5
-[13:33:01] [Server thread/INFO]: [nLogin] Loading server plugin nLogin v10.4.22
-[13:33:01] [Server thread/INFO]: [nAntiBot] Loading server plugin nAntiBot v2.0.0
-[13:33:02] [Server thread/INFO]: [MMOItems] Loading server plugin MMOItems v6.10.1-SNAPSHOT
-[13:33:02] [Server thread/INFO]: [MMOItems] Plugin file is called 'MMOItems-6.10.1-SNAPSHOT.jar'
-[13:33:02] [Server thread/INFO]: [MMOItems Template Modifiers] Preloading template modifiers, please wait..
-[13:33:02] [Server thread/INFO]: [MMOItems Item Templates] Preloading item templates, please wait..
-[13:33:02] [Server thread/INFO]: [LevelledMobs] Loading server plugin LevelledMobs v4.3.2.1 b125
-[13:33:02] [Server thread/INFO]: [LevelledMobs] Loading commands
-[13:33:02] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.22.0-dev+28-0aa25c8
-[13:33:02] [Server thread/INFO]: [EssentialsChat] Loading server plugin EssentialsChat v2.22.0-dev+28-0aa25c8
-[13:33:02] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[13:33:02] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.11
-[13:33:03] [Server thread/INFO]:         __    
-[13:33:03] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.11
-[13:33:03] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[13:33:03] [Server thread/INFO]: 
-[13:33:03] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[13:33:04] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[13:33:04] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[13:33:04] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1553ms)
-[13:33:04] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.4.0
-[13:33:04] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
-[13:33:04] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
-[13:33:04] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[13:33:04] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
-[13:33:04] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
-[13:33:04] [Server thread/INFO]: [nLogin] Enabling nLogin v10.4.22
-[13:33:05] [Server thread/INFO]: [nLogin] Successful plugin core start (took 0.45s)
-[13:33:05] [Server thread/INFO]:           __             _       
-[13:33:05] [Server thread/INFO]:   _ __   / /  ___   __ _(_)_ __  
-[13:33:05] [Server thread/INFO]:  | '_ \ / /  / _ \ / _` | | '_ \ 
-[13:33:05] [Server thread/INFO]:  | | | / /__| (_) | (_| | | | | |
-[13:33:05] [Server thread/INFO]:  |_| |_\____/\___/ \__, |_|_| |_|
-[13:33:05] [Server thread/INFO]:                   |___/            
-[13:33:05] [Server thread/INFO]:  By: www.nickuc.com - V 10.4.23 DEVELOPMENT
-[13:33:05] [Server thread/INFO]:  
-[13:33:06] [Server thread/INFO]: [nAntiBot] Enabling nAntiBot v2.0.0
-[13:33:06] [Server thread/INFO]: [nAntiBot] Successful plugin core start (took 0.36s)
-[13:33:06] [Server thread/INFO]: [nAntiBot]           _         _   _   ___       _   
-[13:33:06] [Server thread/INFO]: [nAntiBot]   _ __   /_\  _ __ | |_(_) / __\ ___ | |_ 
-[13:33:06] [Server thread/INFO]: [nAntiBot]  | '_ \ //_\\| '_ \| __| |/__\/// _ \| __|
-[13:33:06] [Server thread/INFO]: [nAntiBot]  | | | /  _  \ | | | |_| / \/  \ (_) | |_ 
-[13:33:06] [Server thread/INFO]: [nAntiBot]  |_| |_\_/ \_/_| |_|\__|_\_____/\___/ \__|
-[13:33:06] [Server thread/INFO]: [nAntiBot]                                          
-[13:33:06] [Server thread/INFO]: [nAntiBot]  By: www.nickuc.com - V 2.0.0
-[13:33:06] [Server thread/INFO]: [nAntiBot] 
-[13:33:07] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[13:33:07] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[13:33:07] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[13:33:07] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[13:33:07] [Server thread/INFO]: Preparing level "world"
-[13:33:07] [Folia Async Scheduler Thread #3/INFO]: [nAntiBot] Connecting to the remote server antibot.nickuc.com...
-[13:33:07] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[13:33:08] [Server thread/INFO]: Preparing spawn area: 0%
-[13:33:08] [Server thread/INFO]: Preparing spawn area: 2%
-[13:33:08] [Server thread/INFO]: Preparing spawn area: 2%
-[13:33:09] [Server thread/INFO]: Time elapsed: 1148 ms
-[13:33:09] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[13:33:09] [Server thread/INFO]: Preparing spawn area: 0%
-[13:33:09] [Server thread/INFO]: Time elapsed: 178 ms
-[13:33:09] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[13:33:09] [Server thread/INFO]: Preparing spawn area: 0%
-[13:33:09] [Server thread/INFO]: Time elapsed: 113 ms
-[13:33:09] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.6
-[13:33:09] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
-[13:33:09] [Server thread/INFO]: [MythicLib] Enabling MythicLib v1.7.1-SNAPSHOT
-[13:33:09] [Server thread/INFO]: [MythicLib] Hooked onto TextDisplays (holograms)
-[13:33:09] [Server thread/INFO]: [MythicLib] Hooked onto ProtocolLib
-[13:33:09] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: mythiclib [1.7.1-SNAPSHOT]
-[13:33:09] [Server thread/INFO]: [MythicLib] Hooked onto PlaceholderAPI
-[13:33:09] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[13:33:10] [Server thread/INFO]: [MMOCore] Enabling MMOCore v1.13.1-SNAPSHOT
-[13:33:10] [Server thread/INFO]: [MMOCore] Hooked onto Vault
-[13:33:10] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: mmocore [1.13.1-SNAPSHOT]
-[13:33:10] [Server thread/INFO]: [MMOCore] Hooked onto PlaceholderAPI
-[13:33:10] [Server thread/WARN]: [MMOCore] Could not load condition 'region{name="swamp,second-region"}' from fishing drop table 'overriding-drop-table': Could not match any condition to 'region' in database
-[13:33:10] [Server thread/WARN]: [MMOCore] Could not load objective '2' from quest 'adv-begins': Could not match any objective to 'talkto' in database
-[13:33:10] [Server thread/WARN]: [MMOCore] Could not load objective '2' from quest 'fetch-mango': Could not match any objective to 'getitem' in database
-[13:33:10] [Server thread/WARN]: [MMOCore] Could not load objective '3' from quest 'tutorial': Could not match any objective to 'getitem' in database
-[13:33:10] [Server thread/WARN]: [MMOCore] Could not load objective '4' from quest 'tutorial': Could not match any objective to 'talkto' in database
-[13:33:10] [Server thread/WARN]: [MMOCore] Could not load objective '5' from quest 'tutorial': Could not match any objective to 'killmythicmob' in database
-[13:33:10] [Server thread/INFO]: [MMOCore] Hooked parties onto MMOCore
-[13:33:10] [Server thread/INFO]: [MMOCore] Hooked guilds onto MMOCore
-[13:33:10] [Server thread/INFO]: [Essentials] Enabling Essentials v2.22.0-dev+28-0aa25c8
-[13:33:11] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[13:33:11] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[13:33:11] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
-[13:33:11] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
-[13:33:11] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
-[13:33:11] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
-[13:33:11] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
-[13:33:11] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
-[13:33:11] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
-[13:33:11] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
-[13:33:11] [Server thread/INFO]: [Essentials] Selected Legacy Biome Name Provider as the provider for BiomeNameProvider
-[13:33:11] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
-[13:33:11] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
-[13:33:11] [Server thread/INFO]: [Essentials] Selected 1.21.4+ Sync Commands Provider as the provider for SyncCommandsProvider
-[13:33:11] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
-[13:33:11] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
-[13:33:11] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
-[13:33:11] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
-[13:33:11] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
-[13:33:11] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
-[13:33:11] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
-[13:33:11] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
-[13:33:11] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
-[13:33:11] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
-[13:33:11] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
-[13:33:12] [Server thread/INFO]: [Essentials] Loaded 43880 items from items.json.
-[13:33:12] [Server thread/INFO]: [Essentials] Using locale en_US
-[13:33:12] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[13:33:12] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[13:33:12] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
-[13:33:12] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
-[13:33:12] [Server thread/INFO]: [TAB] Enabling TAB v5.2.5
-[13:33:13] [Server thread/INFO]: [TAB] Enabled in 366ms
-[13:33:13] [Server thread/INFO]: [MMOItems] Enabling MMOItems v6.10.1-SNAPSHOT
-[13:33:13] [Server thread/INFO]: [MMOItems] Hooked onto MMOCore
-[13:33:13] [Server thread/INFO]: [MMOItems] Now using MMOCore as RPG core plugin
-[13:33:13] [Server thread/INFO]: [MMOItems Template Modifiers] Loading template modifiers, please wait..
-[13:33:13] [Server thread/INFO]: [MMOItems Item Templates] Loading item templates, please wait...
-[13:33:13] [Server thread/INFO]: [MMOItems] Hooked onto Vault
-[13:33:13] [Server thread/INFO]: [MMOItems] Loading crafting stations, please wait..
-[13:33:13] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: mmoitems [6.10.1-SNAPSHOT]
-[13:33:13] [Server thread/INFO]: [MMOItems] Hooked onto PlaceholderAPI
-[13:33:13] [Server thread/INFO]: [MMOItems] Loading recipes, please wait...
-[13:33:14] [Server thread/INFO]: [LevelledMobs] Enabling LevelledMobs v4.3.2.1 b125
-[13:33:14] [Server thread/INFO]: [LevelledMobs] Enabling commands
-[13:33:14] [Server thread/INFO]: [LevelledMobs] Building reflection cache, use simple names: true
-[13:33:14] [Server thread/INFO]: [LevelledMobs] Found Essentials, loading integration
-[13:33:14] [Server thread/INFO]: [LevelledMobs] Using NMS version 1.21.8 for nametag support
-[13:33:14] [Server thread/INFO]: [LevelledMobs] File Loader: Loading files...
-[13:33:14] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'settings.yml'...
-[13:33:14] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'messages.yml'...
-[13:33:14] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'externalplugins.yml'...
-[13:33:14] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'rules.yml'...
-[13:33:14] [Server thread/INFO]: [LevelledMobs] Current rules hash: 9b0f48e3273bb9cc29d2891ad33fb3410fec8cf1e77c2092ff670fd38f6d4ff5
-[13:33:14] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'customdrops.yml'...
-[13:33:14] [Server thread/INFO]: [LevelledMobs] Listeners: Registering event listeners...
-[13:33:14] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: LevelledMobs [4.3.2.1 b125]
-[13:33:14] [Server thread/INFO]: [LevelledMobs] Running misc procedures
-[13:33:14] [Server thread/INFO]: [LevelledMobs] Tasks: Starting async nametag auto update task...
-[13:33:14] [Server thread/INFO]: [LevelledMobs] Start-up complete (took 346ms)
-[13:33:14] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.22.0-dev+28-0aa25c8
-[13:33:14] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
-[13:33:14] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.22.0-dev+28-0aa25c8
-[13:33:14] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
-[13:33:14] [Server thread/INFO]: [spark] Starting background profiler...
-[13:33:14] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
-[13:33:15] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
-[13:33:15] [Server thread/INFO]: Done preparing level "world" (7.681s)
-[13:33:15] [Server thread/INFO]: Running delayed init tasks
-[13:33:15] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
-[13:33:15] [Craft Scheduler Thread - 14 - Vault/INFO]: [Vault] Checking for Updates ... 
-[13:33:15] [Craft Scheduler Thread - 4 - Essentials/INFO]: [Essentials] Fetching version information...
-[13:33:15] [Server thread/INFO]: 0 placeholder hook(s) registered!
-[13:33:15] [Server thread/INFO]: Done (31.629s)! For help, type "help"
-[13:33:17] [Craft Scheduler Thread - 14 - Vault/INFO]: [Vault] No new version available
-[13:33:21] [pool-16-thread-1/INFO]: [nAntiBot] [Captcha] Captchas generated successfully. (RAM usage ≃ 8 MB [static only], total = 500, protocol count = 49, threads = 4, took 14.57s)
-[13:34:50] [Server thread/INFO]: Stopping the server
-[13:34:50] [Server thread/INFO]: Stopping server
-[13:34:50] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.22.0-dev+28-0aa25c8
-[13:34:50] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.22.0-dev+28-0aa25c8
-[13:34:50] [Server thread/INFO]: [LevelledMobs] Disabling LevelledMobs v4.3.2.1 b125
-[13:34:50] [Server thread/INFO]: [LevelledMobs] Unregistering commands
-[13:34:50] [Server thread/INFO]: [LevelledMobs] Tasks: Shutting down other async tasks...
-[13:34:50] [Server thread/INFO]: [LevelledMobs] Shut-down complete (took 0ms)
-[13:34:50] [Server thread/INFO]: [MMOItems] Disabling MMOItems v6.10.1-SNAPSHOT
-[13:34:50] [Server thread/INFO]: [MMOItems] Waiting for other threads, please wait...
-[13:34:50] [Craft Scheduler Thread - 7 - LevelledMobs/INFO]: [LevelledMobs] Mob processing queue Manager has exited
-[13:34:50] [Craft Scheduler Thread - 9 - LevelledMobs/INFO]: [LevelledMobs] Nametag update queue Manager has exited
-[13:34:50] [Server thread/INFO]: [nAntiBot] Disabling nAntiBot v2.0.0
-[13:34:50] [Server thread/INFO]: [nAntiBot] Successful plugin core shutdown (took 0.00s)
-[13:34:50] [Server thread/INFO]: [nAntiBot] Disconnecting from remote server...
-[13:34:52] [Server thread/INFO]: [nLogin] Disabling nLogin v10.4.22
-[13:34:52] [Server thread/INFO]: [nLogin] Successful plugin core shutdown (took 0.00s)
-[13:34:52] [Server thread/INFO]: [TAB] Disabling TAB v5.2.5
-[13:34:52] [Server thread/INFO]: [TAB] Disabled in 0ms
-[13:34:52] [Server thread/INFO]: [Essentials] Disabling Essentials v2.22.0-dev+28-0aa25c8
-[13:34:52] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
-[13:34:52] [Server thread/INFO]: [MMOCore] Disabling MMOCore v1.13.1-SNAPSHOT
-[13:34:52] [Server thread/INFO]: [MMOCore] Waiting for other threads, please wait...
-[13:34:52] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
-[13:34:52] [Server thread/INFO]: [MythicLib] Disabling MythicLib v1.7.1-SNAPSHOT
-[13:34:52] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.4.0
-[13:34:52] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.11
-[13:34:52] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[13:34:52] [Server thread/INFO]: [LuckPerms] Closing storage...
-[13:34:52] [Server thread/INFO]: [LuckPerms] Goodbye!
-[13:34:52] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.6
-[13:34:52] [Server thread/INFO]: Saving players
-[13:34:52] [Server thread/INFO]: Saving worlds
-[13:34:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[13:34:52] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[13:34:52] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[13:34:52] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[13:34:52] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world' in 0.46s
-[13:34:52] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
-[13:34:52] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
-[13:34:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[13:34:53] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[13:34:53] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[13:34:53] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[13:34:53] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_nether' in 0.17s
-[13:34:53] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
-[13:34:53] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
-[13:34:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[13:34:53] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[13:34:53] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[13:34:53] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[13:34:53] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_the_end' in 0.12s
-[13:34:53] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
-[13:34:53] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
-[13:34:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[13:34:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[13:34:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[13:34:53] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[13:34:53] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
-[13:34:53] [Server thread/INFO]: All RegionFile I/O tasks to complete
-[13:34:53] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[13:34:53] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[14:20:40] [ServerMain/INFO]: [bootstrap] Running Java 21 (Java HotSpot(TM) 64-Bit Server VM 21.0.7+8-LTS-245; Oracle Corporation null) on Windows 11 10.0 (amd64)
+[14:20:40] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.8-60-main@29c8822 (2025-09-06T21:49:13Z) for Minecraft 1.21.8
+[14:20:41] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[14:20:42] [ServerMain/INFO]: [PluginInitializerManager] Initialized 12 plugins
+[14:20:42] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (12):
+ - Coins (1.13.1), Essentials (2.22.0-dev+28-0aa25c8), EssentialsChat (2.22.0-dev+28-0aa25c8), EssentialsSpawn (2.22.0-dev+28-0aa25c8), LevelledMobs (4.3.2.1 b125), LuckPerms (5.5.11), PlaceholderAPI (2.11.6), ProtocolLib (5.4.0), TAB (5.2.5), Vault (1.7.3-b131), nAntiBot (2.0.0), nLogin (10.4.22)
+[14:20:49] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[14:20:55] [ServerMain/INFO]: Loaded 1407 recipes
+[14:20:55] [ServerMain/INFO]: Loaded 1520 advancements
+[14:20:55] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[14:20:56] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 589.6ms
+[14:20:56] [Server thread/INFO]: Starting minecraft server version 1.21.8
+[14:20:56] [Server thread/INFO]: Loading properties
+[14:20:56] [Server thread/INFO]: This server is running Paper version 1.21.8-60-main@29c8822 (2025-09-06T21:49:13Z) (Implementing API version 1.21.8-R0.1-SNAPSHOT)
+[14:20:56] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[14:20:57] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[14:20:57] [Server thread/INFO]: Using 4 threads for Netty based IO
+[14:20:58] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[14:20:58] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[14:20:58] [Server thread/INFO]: Default game type: SURVIVAL
+[14:20:58] [Server thread/INFO]: Generating keypair
+[14:20:58] [Server thread/INFO]: Starting Minecraft server on *:25565
+[14:20:58] [Server thread/INFO]: Using default channel type
+[14:20:58] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[14:20:58] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[14:21:03] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.11
+[14:21:03] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[14:21:03] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[14:21:03] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.6
+[14:21:03] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.4.0
+[14:21:04] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.22.0-dev+28-0aa25c8
+[14:21:04] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.2.5
+[14:21:04] [Server thread/INFO]: [nLogin] Loading server plugin nLogin v10.4.22
+[14:21:05] [Server thread/INFO]: [nAntiBot] Loading server plugin nAntiBot v2.0.0
+[14:21:06] [Server thread/INFO]: [LevelledMobs] Loading server plugin LevelledMobs v4.3.2.1 b125
+[14:21:06] [Server thread/INFO]: [LevelledMobs] Loading commands
+[14:21:07] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.22.0-dev+28-0aa25c8
+[14:21:07] [Server thread/INFO]: [EssentialsChat] Loading server plugin EssentialsChat v2.22.0-dev+28-0aa25c8
+[14:21:07] [Server thread/INFO]: [Coins] Loading server plugin Coins v1.13.1
+[14:21:07] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[14:21:07] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.11
+[14:21:08] [Server thread/INFO]:         __    
+[14:21:08] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.11
+[14:21:08] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[14:21:08] [Server thread/INFO]: 
+[14:21:09] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[14:21:09] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[14:21:10] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[14:21:10] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 3569ms)
+[14:21:10] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[14:21:10] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[14:21:11] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[14:21:11] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[14:21:11] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[14:21:11] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.4.0
+[14:21:11] [Server thread/INFO]: [nLogin] Enabling nLogin v10.4.22
+[14:21:12] [Server thread/INFO]: [nLogin] Successful plugin core start (took 0.88s)
+[14:21:12] [Server thread/INFO]:           __             _       
+[14:21:12] [Server thread/INFO]:   _ __   / /  ___   __ _(_)_ __  
+[14:21:12] [Server thread/INFO]:  | '_ \ / /  / _ \ / _` | | '_ \ 
+[14:21:12] [Server thread/INFO]:  | | | / /__| (_) | (_| | | | | |
+[14:21:12] [Server thread/INFO]:  |_| |_\____/\___/ \__, |_|_| |_|
+[14:21:12] [Server thread/INFO]:                   |___/            
+[14:21:12] [Server thread/INFO]:  By: www.nickuc.com - V 10.4.23 DEVELOPMENT
+[14:21:12] [Server thread/INFO]:  
+[14:21:14] [Server thread/INFO]: [nAntiBot] Enabling nAntiBot v2.0.0
+[14:21:16] [Server thread/INFO]: [nAntiBot] Successful plugin core start (took 1.67s)
+[14:21:16] [Server thread/INFO]: [nAntiBot]           _         _   _   ___       _   
+[14:21:16] [Server thread/INFO]: [nAntiBot]   _ __   /_\  _ __ | |_(_) / __\ ___ | |_ 
+[14:21:16] [Server thread/INFO]: [nAntiBot]  | '_ \ //_\\| '_ \| __| |/__\/// _ \| __|
+[14:21:16] [Server thread/INFO]: [nAntiBot]  | | | /  _  \ | | | |_| / \/  \ (_) | |_ 
+[14:21:16] [Server thread/INFO]: [nAntiBot]  |_| |_\_/ \_/_| |_|\__|_\_____/\___/ \__|
+[14:21:16] [Server thread/INFO]: [nAntiBot]                                          
+[14:21:16] [Server thread/INFO]: [nAntiBot]  By: www.nickuc.com - V 2.0.0
+[14:21:16] [Server thread/INFO]: [nAntiBot] 
+[14:21:17] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[14:21:17] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[14:21:17] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[14:21:17] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[14:21:17] [Server thread/INFO]: Preparing level "world"
+[14:21:17] [Folia Async Scheduler Thread #3/INFO]: [nAntiBot] Connecting to the remote server antibot.nickuc.com...
+[14:21:19] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[14:21:21] [Server thread/INFO]: Preparing spawn area: 0%
+[14:21:21] [Server thread/INFO]: Preparing spawn area: 0%
+[14:21:21] [Server thread/INFO]: Preparing spawn area: 0%
+[14:21:21] [Server thread/INFO]: Preparing spawn area: 0%
+[14:21:21] [Server thread/INFO]: Preparing spawn area: 2%
+[14:21:22] [Server thread/INFO]: Time elapsed: 2379 ms
+[14:21:22] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[14:21:22] [Server thread/INFO]: Preparing spawn area: 0%
+[14:21:22] [Server thread/INFO]: Time elapsed: 297 ms
+[14:21:22] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[14:21:22] [Server thread/INFO]: Preparing spawn area: 0%
+[14:21:22] [Server thread/INFO]: Time elapsed: 171 ms
+[14:21:22] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.6
+[14:21:22] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[14:21:22] [Server thread/INFO]: [Essentials] Enabling Essentials v2.22.0-dev+28-0aa25c8
+[14:21:23] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[14:21:23] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[14:21:23] [Server thread/INFO]: [Essentials] Selected 1.21.4+ Sync Commands Provider as the provider for SyncCommandsProvider
+[14:21:23] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[14:21:23] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
+[14:21:23] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
+[14:21:23] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
+[14:21:23] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[14:21:23] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
+[14:21:23] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+[14:21:23] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
+[14:21:23] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
+[14:21:23] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
+[14:21:23] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+[14:21:23] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
+[14:21:23] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
+[14:21:23] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
+[14:21:23] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[14:21:23] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
+[14:21:23] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
+[14:21:23] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[14:21:23] [Server thread/INFO]: [Essentials] Selected Legacy Biome Name Provider as the provider for BiomeNameProvider
+[14:21:23] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[14:21:23] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
+[14:21:23] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
+[14:21:24] [Server thread/INFO]: [Essentials] Loaded 43880 items from items.json.
+[14:21:24] [Server thread/INFO]: [Essentials] Using locale en_US
+[14:21:24] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[14:21:25] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[14:21:25] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[14:21:25] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[14:21:25] [Server thread/INFO]: [TAB] Enabling TAB v5.2.5
+[14:21:26] [Server thread/INFO]: [TAB] Enabled in 848ms
+[14:21:26] [Server thread/INFO]: [LevelledMobs] Enabling LevelledMobs v4.3.2.1 b125
+[14:21:26] [Server thread/INFO]: [LevelledMobs] Enabling commands
+[14:21:26] [Server thread/INFO]: [LevelledMobs] Building reflection cache, use simple names: true
+[14:21:26] [Server thread/INFO]: [LevelledMobs] Found Essentials, loading integration
+[14:21:26] [Server thread/INFO]: [LevelledMobs] Using NMS version 1.21.8 for nametag support
+[14:21:26] [Server thread/INFO]: [LevelledMobs] File Loader: Loading files...
+[14:21:26] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'settings.yml'...
+[14:21:26] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'messages.yml'...
+[14:21:26] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'externalplugins.yml'...
+[14:21:26] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'rules.yml'...
+[14:21:26] [Server thread/INFO]: [LevelledMobs] Current rules hash: 9b0f48e3273bb9cc29d2891ad33fb3410fec8cf1e77c2092ff670fd38f6d4ff5
+[14:21:26] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'customdrops.yml'...
+[14:21:26] [Server thread/INFO]: [LevelledMobs] Listeners: Registering event listeners...
+[14:21:26] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: LevelledMobs [4.3.2.1 b125]
+[14:21:26] [Server thread/INFO]: [LevelledMobs] Running misc procedures
+[14:21:26] [Server thread/INFO]: [LevelledMobs] Tasks: Starting async nametag auto update task...
+[14:21:26] [Server thread/INFO]: [LevelledMobs] Start-up complete (took 457ms)
+[14:21:26] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.22.0-dev+28-0aa25c8
+[14:21:26] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
+[14:21:26] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.22.0-dev+28-0aa25c8
+[14:21:26] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
+[14:21:26] [Server thread/INFO]: [Coins] Enabling Coins v1.13.1
+[14:21:26] [Server thread/INFO]: [Coins] Vault is used as the economy provider.
+[14:21:26] [Server thread/INFO]: [Coins] Initialized in 270ms.
+[14:21:27] [Server thread/INFO]: [spark] Starting background profiler...
+[14:21:27] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
+[14:21:27] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[14:21:27] [Server thread/INFO]: Done preparing level "world" (9.579s)
+[14:21:27] [Server thread/INFO]: Running delayed init tasks
+[14:21:27] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[14:21:27] [Server thread/INFO]: Done (49.333s)! For help, type "help"
+[14:21:27] [Craft Scheduler Thread - 6 - Essentials/INFO]: [Essentials] Fetching version information...
+[14:21:27] [Server thread/WARN]: [PlaceholderAPI] Cannot load expansion coinsapi due to an unknown issue.
+[14:21:27] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: essentials [1.5.2]
+[14:21:27] [Craft Scheduler Thread - 17 - Vault/INFO]: [Vault] Checking for Updates ... 
+[14:21:27] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: luckperms [5.4-R2]
+[14:21:27] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: vault [1.8.3]
+[14:21:27] [Server thread/INFO]: 3 placeholder hook(s) registered!
+[14:21:28] [Craft Scheduler Thread - 17 - Vault/INFO]: [Vault] No new version available
+[14:21:29] [Craft Scheduler Thread - 6 - Essentials/WARN]: [Essentials] Unable to check your version! Self-built? Build information: id:'0aa25c8' branch:'2.x' isDev:true.
+[14:21:37] [pool-17-thread-1/INFO]: [nAntiBot] [Captcha] Captchas generated successfully. (RAM usage ≃ 8 MB [static only], total = 500, protocol count = 49, threads = 4, took 20.16s)
+[14:21:40] [User Authenticator #0/INFO]: UUID of player SmileDev is b6a0a340-39a3-383e-9040-132a79745be3
+[14:21:40] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [LuckPerms, nLogin, Essentials, ProtocolLib]
+[14:21:43] [Server thread/INFO]: SmileDev[/127.0.0.1:50055] logged in with entity id 36 at ([world]-82.65583522662139, 72.0, -234.01242462824337)
+[14:21:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4100ms or 82 ticks behind
+[14:21:53] [Server thread/WARN]: SmileDev moved too quickly! 0.0,-507.1368042808656,0.0
+[14:22:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2874ms or 57 ticks behind
+[14:22:06] [Server thread/INFO]: SmileDev issued server command: /tab reload
+[14:22:06] [Server thread/INFO]: [TAB] Disabled in 3ms
+[14:22:06] [Server thread/INFO]: [TAB] Enabled in 205ms
+[14:22:10] [Folia Async Scheduler Thread #6/INFO]: [nLogin] The user SmileDev has successfully logged in.
+[14:22:43] [Server thread/INFO]: [TAB] Disabled in 1ms
+[14:22:43] [Server thread/INFO]: [TAB] Enabled in 82ms
+[14:22:43] [Server thread/INFO]: [TAB] [TAB] Đã reload thành công.
+[14:23:35] [Server thread/INFO]: [TAB] Disabled in 1ms
+[14:23:35] [Server thread/INFO]: [TAB] Enabled in 63ms
+[14:23:35] [Server thread/INFO]: [TAB] [TAB] Đã reload thành công.
+[14:24:15] [Server thread/INFO]: [TAB] Disabled in 5ms
+[14:24:16] [Server thread/INFO]: [TAB] Enabled in 53ms
+[14:24:16] [Server thread/INFO]: [TAB] [TAB] Đã reload thành công.
+[14:24:29] [Server thread/INFO]: Unknown or incomplete command, see below for error
+ad<--[HERE]
+[14:24:40] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg SmileDev 111
+[14:24:40] [Server thread/INFO]: [me -> SmileDev] 111
+[14:32:37] [Server thread/INFO]: [TAB] Disabled in 3ms
+[14:32:38] [Server thread/INFO]: [TAB] Enabled in 120ms
+[14:32:38] [Server thread/INFO]: [TAB] [TAB] Đã reload thành công.
+[14:33:13] [Server thread/INFO]: [TAB] Disabled in 1ms
+[14:33:13] [Server thread/INFO]: [TAB] Enabled in 187ms
+[14:33:13] [Server thread/INFO]: [TAB] [TAB] Đã reload thành công.
+[14:33:30] [Server thread/INFO]: [TAB] Disabled in 1ms
+[14:33:30] [Server thread/INFO]: [TAB] Enabled in 52ms
+[14:33:30] [Server thread/INFO]: [TAB] [TAB] Đã reload thành công.
+[14:33:58] [Server thread/INFO]: [TAB] Disabled in 0ms
+[14:33:58] [Server thread/INFO]: [TAB] Enabled in 24ms
+[14:33:58] [Server thread/INFO]: [TAB] [TAB] Đã reload thành công.
+[14:34:10] [Server thread/INFO]: [TAB] Disabled in 1ms
+[14:34:10] [Server thread/INFO]: [TAB] Enabled in 31ms
+[14:34:10] [Server thread/INFO]: [TAB] [TAB] Đã reload thành công.
+[14:34:17] [Server thread/INFO]: [TAB] Disabled in 0ms
+[14:34:18] [Server thread/INFO]: [TAB] Enabled in 20ms
+[14:34:18] [Server thread/INFO]: [TAB] [TAB] Đã reload thành công.
+[14:36:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2596ms or 51 ticks behind
+[14:37:28] [Server thread/INFO]: [TAB] Disabled in 1ms
+[14:37:28] [Server thread/INFO]: [TAB] Enabled in 30ms
+[14:37:28] [Server thread/INFO]: [TAB] [TAB] Đã reload thành công.
+[14:37:51] [Server thread/INFO]: [TAB] Disabled in 2ms
+[14:37:51] [Server thread/INFO]: [TAB] Enabled in 43ms
+[14:37:51] [Server thread/INFO]: [TAB] [TAB] Đã reload thành công.
+[14:38:03] [Server thread/INFO]: [TAB] Disabled in 0ms
+[14:38:03] [Server thread/INFO]: [TAB] Enabled in 20ms
+[14:38:03] [Server thread/INFO]: [TAB] [TAB] Đã reload thành công.
+[14:38:28] [Server thread/INFO]: [TAB] Disabled in 1ms
+[14:38:28] [Server thread/INFO]: [TAB] Enabled in 17ms
+[14:38:28] [Server thread/INFO]: [TAB] [TAB] Đã reload thành công.
+[14:39:07] [Server thread/INFO]: [TAB] Disabled in 1ms
+[14:39:07] [Server thread/INFO]: [TAB] Enabled in 37ms
+[14:39:07] [Server thread/INFO]: [TAB] [TAB] Đã reload thành công.
+[14:39:56] [Server thread/INFO]: [TAB] Disabled in 0ms
+[14:39:56] [Server thread/INFO]: [TAB] Enabled in 32ms
+[14:39:56] [Server thread/INFO]: [TAB] [TAB] Đã reload thành công.
+[14:40:24] [Server thread/INFO]: [TAB] Disabled in 0ms
+[14:40:24] [Server thread/INFO]: [TAB] Enabled in 19ms
+[14:40:24] [Server thread/INFO]: [TAB] [TAB] Đã reload thành công.
+[14:40:59] [Server thread/INFO]: [TAB] Disabled in 0ms
+[14:40:59] [Server thread/INFO]: [TAB] Enabled in 23ms
+[14:40:59] [Server thread/INFO]: [TAB] [TAB] Đã reload thành công.
+[14:41:21] [Server thread/INFO]: [TAB] Disabled in 0ms
+[14:41:21] [Server thread/INFO]: [TAB] Enabled in 10ms
+[14:41:21] [Server thread/INFO]: [TAB] [TAB] Đã reload thành công.
+[14:43:28] [Server thread/INFO]: [TAB] Disabled in 2ms
+[14:43:28] [Server thread/INFO]: [TAB] [WARN] [animations.yml] .ArrowsRGB: Animation "ArrowsRGB" has refresh interval of 80, which is not divisible by 50! Using 100.
+[14:43:28] [Server thread/INFO]: [TAB] [WARN] Found a total of 1 issues.
+[14:43:28] [Server thread/INFO]: [TAB] Enabled in 17ms
+[14:43:28] [Server thread/INFO]: [TAB] [TAB] Đã reload thành công.
+[14:43:44] [Server thread/INFO]: [TAB] Disabled in 1ms
+[14:43:44] [Server thread/INFO]: [TAB] [WARN] [animations.yml] .ArrowsRGB: Animation "ArrowsRGB" has refresh interval of 80, which is not divisible by 50! Using 100.
+[14:43:44] [Server thread/INFO]: [TAB] [WARN] Found a total of 1 issues.
+[14:43:44] [Server thread/INFO]: [TAB] Enabled in 75ms
+[14:43:44] [Server thread/INFO]: [TAB] [TAB] Đã reload thành công.
+[14:44:11] [Server thread/INFO]: SmileDev issued server command: /money SmileDev add 100000
+[14:44:25] [Server thread/INFO]: SmileDev issued server command: /help money
+[14:44:32] [Server thread/INFO]: SmileDev issued server command: /help add
+[14:44:51] [Server thread/INFO]: [TAB] Disabled in 1ms
+[14:44:51] [Server thread/INFO]: [TAB] [WARN] [animations.yml] .ArrowsRGB: Animation "ArrowsRGB" has refresh interval of 80, which is not divisible by 50! Using 100.
+[14:44:51] [Server thread/INFO]: [TAB] [WARN] Found a total of 1 issues.
+[14:44:51] [Server thread/INFO]: [TAB] Enabled in 20ms
+[14:44:51] [Server thread/INFO]: [TAB] [TAB] Đã reload thành công.
+[14:45:09] [Server thread/INFO]: SmileDev issued server command: /tab reload
+[14:45:09] [Server thread/INFO]: [TAB] Disabled in 3ms
+[14:45:09] [Server thread/INFO]: [TAB] [WARN] [animations.yml] .ArrowsRGB: Animation "ArrowsRGB" has refresh interval of 80, which is not divisible by 50! Using 100.
+[14:45:09] [Server thread/INFO]: [TAB] [WARN] Found a total of 1 issues.
+[14:45:09] [Server thread/INFO]: [TAB] Enabled in 22ms
+[14:45:24] [Server thread/INFO]: [TAB] Disabled in 1ms
+[14:45:24] [Server thread/INFO]: [TAB] [WARN] [animations.yml] .ArrowsRGB: Animation "ArrowsRGB" has refresh interval of 80, which is not divisible by 50! Using 100.
+[14:45:24] [Server thread/INFO]: [TAB] [WARN] Found a total of 1 issues.
+[14:45:24] [Server thread/INFO]: [TAB] Enabled in 13ms
+[14:45:24] [Server thread/INFO]: [TAB] [TAB] Đã reload thành công.
+[14:45:48] [Server thread/INFO]: [TAB] Disabled in 0ms
+[14:45:48] [Server thread/INFO]: [TAB] [WARN] [animations.yml] .ArrowsRGB: Animation "ArrowsRGB" has refresh interval of 80, which is not divisible by 50! Using 100.
+[14:45:48] [Server thread/INFO]: [TAB] [WARN] Found a total of 1 issues.
+[14:45:48] [Server thread/INFO]: [TAB] Enabled in 17ms
+[14:45:48] [Server thread/INFO]: [TAB] [TAB] Đã reload thành công.
+[14:46:01] [Server thread/INFO]: [TAB] Disabled in 0ms
+[14:46:01] [Server thread/INFO]: [TAB] [WARN] [animations.yml] .ArrowsRGB: Animation "ArrowsRGB" has refresh interval of 80, which is not divisible by 50! Using 100.
+[14:46:01] [Server thread/INFO]: [TAB] [WARN] Found a total of 1 issues.
+[14:46:01] [Server thread/INFO]: [TAB] Enabled in 14ms
+[14:46:01] [Server thread/INFO]: [TAB] [TAB] Đã reload thành công.
+[14:46:49] [Server thread/INFO]: [TAB] Disabled in 1ms
+[14:46:49] [Server thread/INFO]: [TAB] Enabled in 57ms
+[14:46:49] [Server thread/INFO]: [TAB] [TAB] Đã reload thành công.
+[14:50:17] [Server thread/INFO]: [TAB] Disabled in 1ms
+[14:50:17] [Server thread/INFO]: [TAB] Enabled in 32ms
+[14:50:17] [Server thread/INFO]: [TAB] [TAB] Đã reload thành công.
+[14:50:36] [Server thread/WARN]: SmileDev moved too quickly! -3.3125718809532714,5.437383879319043,26.575485916735744
+[14:51:03] [Server thread/INFO]: [TAB] Disabled in 3ms
+[14:51:03] [Server thread/INFO]: [TAB] Enabled in 11ms
+[14:51:03] [Server thread/INFO]: [TAB] [TAB] Đã reload thành công.
+[14:52:09] [Server thread/INFO]: SmileDev issued server command: /anvil SmileDev
+[14:54:32] [Server thread/INFO]: [TAB] Disabled in 1ms
+[14:54:32] [Server thread/INFO]: [TAB] Enabled in 28ms
+[14:54:32] [Server thread/INFO]: [TAB] [TAB] Đã reload thành công.
+[14:55:37] [Server thread/INFO]: [TAB] Disabled in 3ms
+[14:55:37] [Server thread/INFO]: [TAB] Enabled in 71ms
+[14:55:37] [Server thread/INFO]: [TAB] [TAB] Đã reload thành công.
+[14:55:46] [Server thread/INFO]: [TAB] Disabled in 2ms
+[14:55:46] [Server thread/INFO]: [TAB] Enabled in 70ms
+[14:55:46] [Server thread/INFO]: [TAB] [TAB] Đã reload thành công.
+[14:55:53] [Server thread/INFO]: SmileDev has made the advancement [Ice Bucket Challenge]
+[14:56:54] [Server thread/INFO]: SmileDev has made the advancement [We Need to Go Deeper]
+[14:57:21] [Server thread/INFO]: [TAB] Disabled in 3ms
+[14:57:21] [Server thread/INFO]: [TAB] Enabled in 92ms
+[14:57:21] [Server thread/INFO]: [TAB] [TAB] Đã reload thành công.
+[14:57:29] [Server thread/INFO]: [TAB] Disabled in 0ms
+[14:57:29] [Server thread/INFO]: [TAB] Enabled in 53ms
+[14:57:29] [Server thread/INFO]: [TAB] [TAB] Đã reload thành công.
+[14:57:45] [Server thread/INFO]: [TAB] Disabled in 2ms
+[14:57:45] [Server thread/INFO]: [TAB] Enabled in 16ms
+[14:57:45] [Server thread/INFO]: [TAB] [TAB] Đã reload thành công.
+[14:58:17] [Server thread/INFO]: [TAB] Disabled in 1ms
+[14:58:17] [Server thread/INFO]: [TAB] Enabled in 28ms
+[14:58:17] [Server thread/INFO]: [TAB] [TAB] Đã reload thành công.
+[14:58:31] [Server thread/INFO]: [TAB] Disabled in 1ms
+[14:58:31] [Server thread/INFO]: [TAB] Enabled in 13ms
+[14:58:31] [Server thread/INFO]: [TAB] [TAB] Đã reload thành công.
+[15:01:10] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg SmileDev 111
+[15:01:10] [Server thread/INFO]: [me -> SmileDev] 111
+[15:01:12] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg SmileDev 111
+[15:01:12] [Server thread/INFO]: [me -> SmileDev] 111
+[15:01:13] [Server thread/INFO]: [TAB] Disabled in 3ms
+[15:01:13] [Server thread/INFO]: [TAB] Enabled in 21ms
+[15:01:13] [Server thread/INFO]: [TAB] [TAB] Đã reload thành công.
+[15:02:07] [Server thread/INFO]: [TAB] Disabled in 1ms
+[15:02:07] [Server thread/INFO]: [TAB] Enabled in 59ms
+[15:02:07] [Server thread/INFO]: [TAB] [TAB] Đã reload thành công.
+[15:02:31] [Server thread/INFO]: [TAB] Disabled in 2ms
+[15:02:31] [Server thread/INFO]: [TAB] Enabled in 17ms
+[15:02:31] [Server thread/INFO]: [TAB] [TAB] Đã reload thành công.
+[15:02:43] [Server thread/INFO]: [TAB] Disabled in 1ms
+[15:02:43] [Server thread/INFO]: [TAB] Enabled in 7ms
+[15:02:43] [Server thread/INFO]: [TAB] [TAB] Đã reload thành công.
+[15:02:53] [Server thread/INFO]: [TAB] Disabled in 1ms
+[15:02:53] [Server thread/INFO]: [TAB] Enabled in 28ms
+[15:02:53] [Server thread/INFO]: [TAB] [TAB] Đã reload thành công.
+[15:03:15] [Server thread/INFO]: [TAB] Disabled in 0ms
+[15:03:16] [Server thread/INFO]: [TAB] Enabled in 178ms
+[15:03:16] [Server thread/INFO]: [TAB] [TAB] Đã reload thành công.
+[15:03:27] [Server thread/INFO]: [TAB] Disabled in 0ms
+[15:03:28] [Server thread/INFO]: [TAB] Enabled in 13ms
+[15:03:28] [Server thread/INFO]: [TAB] [TAB] Đã reload thành công.
+[15:03:50] [Server thread/INFO]: [TAB] Disabled in 0ms
+[15:03:50] [Server thread/INFO]: [TAB] Enabled in 13ms
+[15:03:50] [Server thread/INFO]: [TAB] [TAB] Đã reload thành công.
+[15:05:10] [Server thread/INFO]: [TAB] Disabled in 5ms
+[15:05:10] [Server thread/INFO]: [TAB] Enabled in 41ms
+[15:05:10] [Server thread/INFO]: [TAB] [TAB] Đã reload thành công.
+[15:05:45] [Server thread/INFO]: [TAB] Disabled in 1ms
+[15:05:45] [Server thread/INFO]: [TAB] Enabled in 21ms
+[15:05:45] [Server thread/INFO]: [TAB] [TAB] Đã reload thành công.
+[15:05:59] [Server thread/INFO]: [TAB] Disabled in 0ms
+[15:05:59] [Server thread/INFO]: [TAB] Enabled in 47ms
+[15:05:59] [Server thread/INFO]: [TAB] [TAB] Đã reload thành công.
+[15:06:19] [Server thread/INFO]: [TAB] Disabled in 0ms
+[15:06:19] [Server thread/INFO]: [TAB] Enabled in 16ms
+[15:06:19] [Server thread/INFO]: [TAB] [TAB] Đã reload thành công.
+[15:06:34] [Server thread/INFO]: [TAB] Disabled in 2ms
+[15:06:34] [Server thread/INFO]: [TAB] Enabled in 27ms
+[15:06:34] [Server thread/INFO]: [TAB] [TAB] Đã reload thành công.
+[15:06:47] [Server thread/INFO]: [TAB] Disabled in 1ms
+[15:06:47] [Server thread/INFO]: [TAB] Enabled in 23ms
+[15:06:47] [Server thread/INFO]: [TAB] [TAB] Đã reload thành công.
+[15:07:08] [Server thread/INFO]: [TAB] Disabled in 3ms
+[15:07:08] [Server thread/INFO]: [TAB] Enabled in 22ms
+[15:07:08] [Server thread/INFO]: [TAB] [TAB] Đã reload thành công.
+[15:07:25] [Server thread/INFO]: [TAB] Disabled in 0ms
+[15:07:25] [Server thread/INFO]: [TAB] Enabled in 31ms
+[15:07:25] [Server thread/INFO]: [TAB] [TAB] Đã reload thành công.
+[15:07:41] [Server thread/INFO]: [TAB] Disabled in 2ms
+[15:07:41] [Server thread/INFO]: [TAB] Enabled in 19ms
+[15:07:41] [Server thread/INFO]: [TAB] [TAB] Đã reload thành công.
+[15:08:07] [Server thread/INFO]: [TAB] Disabled in 1ms
+[15:08:07] [Server thread/INFO]: [TAB] Enabled in 10ms
+[15:08:07] [Server thread/INFO]: [TAB] [TAB] Đã reload thành công.
+[15:08:20] [Server thread/INFO]: [TAB] Disabled in 0ms
+[15:08:20] [Server thread/INFO]: [TAB] Enabled in 27ms
+[15:08:20] [Server thread/INFO]: [TAB] [TAB] Đã reload thành công.
+[15:08:36] [Server thread/INFO]: [TAB] Disabled in 1ms
+[15:08:37] [Server thread/INFO]: [TAB] Enabled in 41ms
+[15:08:37] [Server thread/INFO]: [TAB] [TAB] Đã reload thành công.
+[15:09:01] [Server thread/INFO]: SmileDev issued server command: /tab reload
+[15:09:01] [Server thread/INFO]: [TAB] Disabled in 1ms
+[15:09:01] [Server thread/INFO]: [TAB] Enabled in 27ms
+[15:09:25] [Server thread/INFO]: [TAB] Disabled in 5ms
+[15:09:25] [Server thread/INFO]: [TAB] Enabled in 25ms
+[15:09:25] [Server thread/INFO]: [TAB] [TAB] Đã reload thành công.
+[15:09:49] [Server thread/INFO]: [TAB] Disabled in 1ms
+[15:09:50] [Server thread/INFO]: [TAB] Enabled in 43ms
+[15:09:50] [Server thread/INFO]: [TAB] [TAB] Đã reload thành công.
+[15:10:12] [Server thread/INFO]: [TAB] Disabled in 2ms
+[15:10:12] [Server thread/INFO]: [TAB] Enabled in 39ms
+[15:10:12] [Server thread/INFO]: [TAB] [TAB] Đã reload thành công.
+[15:10:26] [Server thread/INFO]: [TAB] Disabled in 1ms
+[15:10:27] [Server thread/INFO]: [TAB] Enabled in 19ms
+[15:10:27] [Server thread/INFO]: [TAB] [TAB] Đã reload thành công.
+[15:10:31] [Server thread/INFO]: SmileDev issued server command: /tab reload
+[15:10:31] [Server thread/INFO]: [TAB] Disabled in 1ms
+[15:10:31] [Server thread/INFO]: [TAB] Enabled in 11ms
+[15:11:00] [Server thread/INFO]: [TAB] Disabled in 4ms
+[15:11:00] [Server thread/INFO]: [TAB] Enabled in 55ms
+[15:11:00] [Server thread/INFO]: [TAB] [TAB] Đã reload thành công.
+[15:13:14] [Server thread/INFO]: [TAB] Disabled in 4ms
+[15:13:14] [Server thread/INFO]: [TAB] Enabled in 25ms
+[15:13:14] [Server thread/INFO]: [TAB] [TAB] Đã reload thành công.
+[15:13:44] [Server thread/INFO]: [TAB] Disabled in 58ms
+[15:13:45] [Server thread/INFO]: [TAB] Enabled in 55ms
+[15:13:45] [Server thread/INFO]: [TAB] [TAB] Đã reload thành công.
+[15:14:04] [Server thread/INFO]: SmileDev issued server command: /rtp
+[15:15:06] [Server thread/INFO]: Cấu hình của Coins đã được tải lại trong 203ms.
+[15:15:06] [Server thread/INFO]: Bạn có thể xem các thiết lập đang hoạt động bằng /coins settings.
+[15:17:04] [Server thread/INFO]: SmileDev issued server command: /eco give SmileDev 99999
+[15:25:03] [Server thread/INFO]: Cấu hình của Coins đã được tải lại trong 34ms.
+[15:25:03] [Server thread/INFO]: Bạn có thể xem các thiết lập đang hoạt động bằng /coins settings.
+[15:25:05] [Server thread/INFO]: [TAB] Disabled in 3ms
+[15:25:05] [Server thread/INFO]: [TAB] Enabled in 15ms
+[15:25:05] [Server thread/INFO]: [TAB] [TAB] Đã reload thành công.
+[15:25:17] [Server thread/INFO]: SmileDev issued server command: /eco give SmileDev 9999988888
+[15:27:48] [Server thread/INFO]: Cấu hình của Coins đã được tải lại trong 34ms.
+[15:27:48] [Server thread/INFO]: Bạn có thể xem các thiết lập đang hoạt động bằng /coins settings.
+[15:27:52] [Server thread/INFO]: [TAB] Disabled in 1ms
+[15:27:52] [Server thread/INFO]: [TAB] Enabled in 14ms
+[15:27:52] [Server thread/INFO]: [TAB] [TAB] Đã reload thành công.
+[15:28:05] [Server thread/INFO]: SmileDev issued server command: /eco set SmileDev 0
+[15:28:16] [Server thread/INFO]: SmileDev issued server command: /eco give SmileDev 50
+[15:28:42] [Server thread/INFO]:       Coins 1.13.1      
+[15:28:42] [Server thread/INFO]: /coins drop <player|x,y,z[,world]> <amount> [radius]
+[15:28:42] [Server thread/INFO]: /coins remove [radius|all] - xóa đồng xu trong một bán kính
+[15:28:42] [Server thread/INFO]: /coins settings - liệt kê các thiết lập đang được nạp
+[15:28:42] [Server thread/INFO]: /coins reload - tải lại thiết lập từ config.yml
+[15:28:42] [Server thread/INFO]: /coins version - kiểm tra xem có bản phát hành mới không
+[15:28:42] [Server thread/INFO]: /coins toggle - tắt hoặc bật Coins trên toàn server
+[15:28:42] [Server thread/INFO]: /withdraw <worth> [amount] - rút tiền thành đồng xu
+[15:28:45] [Server thread/INFO]: Cấu hình của Coins đã được tải lại trong 8ms.
+[15:28:45] [Server thread/INFO]: Bạn có thể xem các thiết lập đang hoạt động bằng /coins settings.
+[15:28:52] [Server thread/INFO]: SmileDev issued server command: /tab reload
+[15:28:52] [Server thread/INFO]: [TAB] Disabled in 1ms
+[15:28:52] [Server thread/INFO]: [TAB] Enabled in 10ms
+[15:28:57] [Server thread/INFO]: SmileDev issued server command: /eco give SmileDev 50000
+[15:29:20] [Server thread/INFO]: SmileDev issued server command: /time set night
+[15:35:32] [Server thread/INFO]: [TAB] Disabled in 4ms
+[15:35:32] [Server thread/INFO]: [TAB] [WARN] File plugins\TAB\config.yml has broken syntax.
+[15:35:32] [Server thread/INFO]: [TAB] Error message from yaml parser: while parsing a block mapping
+ in 'reader', line 88, column 3:
+      enabled: true
+      ^
+expected <block end>, but found '-'
+ in 'reader', line 109, column 3:
+      - " &7• &aSố dư&7: &a&l%vault_ec ... 
+      ^
+
+[15:35:32] [Server thread/INFO]: [TAB] Suggestions to fix yaml syntax:
+[15:35:32] [Server thread/INFO]: [TAB] - Add 6 space(s) to line 109
+[15:35:32] [Server thread/INFO]: [TAB] - Remove 6 space(s) from line 111
+[15:35:32] [Server thread/INFO]: [TAB] - List starting at line 109 is missing a name.
+[15:35:32] [Server thread/INFO]: [TAB] [WARN] Did not enable due to a broken configuration file.
+[15:35:32] [Server thread/INFO]: [TAB] [TAB] Reload thất bại, file config.yml bị lỗi cú pháp. Xem chi tiết trong console.
+[15:35:54] [Server thread/INFO]: [TAB] Enabled in 38ms
+[15:35:54] [Server thread/INFO]: [TAB] Đã reload thành công.
+[15:36:13] [Server thread/INFO]: SmileDev issued server command: /eco give SmileDev 500000000
+[15:36:34] [Server thread/INFO]: SmileDev issued server command: /balance
+[15:37:20] [Server thread/INFO]: [TAB] Disabled in 3ms
+[15:37:20] [Server thread/INFO]: [TAB] Enabled in 23ms
+[15:37:20] [Server thread/INFO]: [TAB] [TAB] Đã reload thành công.
+[15:37:48] [Server thread/INFO]: [TAB] Disabled in 4ms
+[15:37:48] [Server thread/INFO]: [TAB] Enabled in 34ms
+[15:37:48] [Server thread/INFO]: [TAB] [TAB] Đã reload thành công.
+[15:38:14] [Server thread/INFO]: [TAB] Disabled in 2ms
+[15:38:15] [Server thread/INFO]: [TAB] Enabled in 46ms
+[15:38:15] [Server thread/INFO]: [TAB] [TAB] Đã reload thành công.
+[15:39:38] [Server thread/INFO]: [TAB] Disabled in 1ms
+[15:39:39] [Server thread/INFO]: [TAB] Enabled in 17ms
+[15:39:39] [Server thread/INFO]: [TAB] [TAB] Đã reload thành công.
+[15:39:56] [Server thread/INFO]: SmileDev issued server command: /eco set SmileDev 0
+[15:40:00] [Server thread/INFO]: SmileDev issued server command: /eco set SmileDev 10
+[15:40:04] [Server thread/INFO]: SmileDev issued server command: /eco set SmileDev 20245
+[15:46:22] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /eco set SmileDev 0
+[15:46:22] [Server thread/INFO]: You set SmileDev's balance to $0.
+[15:47:34] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /ess reload
+[15:47:35] [Server thread/INFO]: [Essentials] Loaded 43883 items from items.json.
+[15:47:35] [Server thread/INFO]: [Essentials] Using locale en_US
+[15:47:35] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[15:47:35] [Server thread/INFO]: Essentials reloaded 2.22.0-dev+28-0aa25c8.
+[15:47:49] [Server thread/INFO]: SmileDev issued server command: /eco set SmileDev 9
+[15:47:51] [Server thread/INFO]: SmileDev issued server command: /eco set SmileDev 9
+[15:49:31] [Server thread/INFO]: SmileDev issued server command: /repair hand
+[15:49:38] [Server thread/INFO]: [SmileDev: Set own game mode to Survival Mode]
+[15:49:54] [Server thread/INFO]: SmileDev was shot by Lvl 4 | Bogged
+[15:50:09] [Server thread/INFO]: SmileDev issued server command: /repair hand
+[15:50:18] [Server thread/INFO]: SmileDev issued server command: /eco set SmileDev 10000
+[15:50:31] [Server thread/INFO]: SmileDev issued server command: /eco set SmileDev 10000
+[15:50:35] [Server thread/INFO]: SmileDev issued server command: /repair hand
+[15:50:41] [Server thread/INFO]: SmileDev issued server command: /balance
+[15:50:45] [Server thread/INFO]: [SmileDev: Set own game mode to Creative Mode]
+[15:51:48] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /ess reload
+[15:51:48] [Server thread/INFO]: [Essentials] Loaded 43883 items from items.json.
+[15:51:48] [Server thread/INFO]: [Essentials] Using locale en_US
+[15:51:48] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[15:51:48] [Server thread/INFO]: Essentials reloaded 2.22.0-dev+28-0aa25c8.
+[15:51:53] [Server thread/INFO]: SmileDev issued server command: /balance
+[15:52:00] [Server thread/INFO]: [SmileDev: Set own game mode to Survival Mode]
+[15:52:11] [Server thread/INFO]: SmileDev issued server command: /repair hand
+[15:52:17] [Server thread/INFO]: SmileDev issued server command: /balance
+[15:52:22] [Server thread/INFO]: [SmileDev: Set own game mode to Creative Mode]
+[15:53:38] [Server thread/INFO]: SmileDev issued server command: /baltop
+[15:54:26] [Server thread/INFO]: SmileDev issued server command: /kittycannon
+[15:54:31] [Server thread/INFO]: SmileDev issued server command: /kittycannon
+[15:54:43] [Server thread/INFO]: SmileDev issued server command: /kit tools
+[15:54:43] [Server thread/INFO]: SmileDev has made the advancement [Getting an Upgrade]
+[15:55:03] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /ess reload
+[15:55:04] [Server thread/INFO]: [Essentials] Loaded 43883 items from items.json.
+[15:55:04] [Server thread/INFO]: [Essentials] Using locale en_US
+[15:55:04] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[15:55:04] [Server thread/INFO]: Essentials reloaded 2.22.0-dev+28-0aa25c8.
+[15:55:09] [Server thread/INFO]: SmileDev issued server command: /kit tools
+[15:56:59] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /ess reload
+[15:56:59] [Server thread/INFO]: [Essentials] Loaded 43883 items from items.json.
+[15:56:59] [Server thread/INFO]: [Essentials] Using locale en_US
+[15:56:59] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[15:56:59] [Server thread/INFO]: Essentials reloaded 2.22.0-dev+28-0aa25c8.
+[15:57:02] [Async Chat Thread - #0/INFO]: [Not Secure] [default] SmileDev: a
+[16:02:37] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /ess reload
+[16:02:37] [Server thread/INFO]: [Essentials] Loaded 43883 items from items.json.
+[16:02:37] [Server thread/INFO]: [Essentials] Using locale en_US
+[16:02:37] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[16:02:37] [Server thread/INFO]: Essentials reloaded 2.22.0-dev+28-0aa25c8.
+[16:02:50] [Server thread/INFO]: SmileDev issued server command: /kit newbie
+[16:06:55] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /ess reload
+[16:06:55] [Server thread/INFO]: [Essentials] Loaded 43883 items from items.json.
+[16:06:55] [Server thread/INFO]: [Essentials] Using locale en_US
+[16:06:55] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[16:06:55] [Server thread/INFO]: Essentials reloaded 2.22.0-dev+28-0aa25c8.
+[16:07:09] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /ess reload
+[16:07:10] [Server thread/INFO]: [Essentials] Loaded 43883 items from items.json.
+[16:07:10] [Server thread/INFO]: [Essentials] Using locale vi
+[16:07:10] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[16:07:10] [Server thread/INFO]: Essentials đã được tải lại 2.22.0-dev+28-0aa25c8.
+[16:07:16] [Server thread/INFO]: SmileDev issued server command: /balance
+[16:07:25] [Server thread/INFO]: SmileDev issued server command: /eco give SmileDev 1
+[16:07:34] [Server thread/INFO]: SmileDev issued server command: /ess reload
+[16:07:34] [Server thread/INFO]: [Essentials] Loaded 43883 items from items.json.
+[16:07:34] [Server thread/INFO]: [Essentials] Using locale vi
+[16:07:34] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[16:07:40] [Server thread/INFO]: SmileDev issued server command: /ess version
+[16:08:18] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /ess reload
+[16:08:18] [Server thread/INFO]: [Essentials] Loaded 43883 items from items.json.
+[16:08:18] [Server thread/INFO]: [Essentials] Using locale vi
+[16:08:18] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[16:08:18] [Server thread/INFO]: Essentials đã được tải lại 2.22.0-dev+28-0aa25c8.
+[16:10:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6024ms or 120 ticks behind
+[16:10:27] [Server thread/INFO]: SmileDev issued server command: /balance
+[16:10:33] [Server thread/INFO]: SmileDev issued server command: /version
+[16:10:40] [Server thread/INFO]: SmileDev issued server command: /ess version
+[16:10:52] [Server thread/INFO]: SmileDev issued server command: /baltop
+[16:11:13] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /ess reload
+[16:11:13] [Server thread/INFO]: [Essentials] Loaded 43883 items from items.json.
+[16:11:13] [Server thread/INFO]: [Essentials] Using locale vi
+[16:11:13] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[16:11:13] [Server thread/INFO]: Essentials đã được tải lại 2.22.0-dev+28-0aa25c8.
+[16:11:20] [Server thread/INFO]: SmileDev issued server command: /balance
+[16:11:22] [Server thread/INFO]: SmileDev issued server command: /balance
+[16:12:08] [Server thread/INFO]: SmileDev lost connection: Disconnected
+[16:12:32] [Server thread/INFO]: Unknown or incomplete command, see below for error
+stop[<--[HERE]
+[16:12:34] [Server thread/INFO]: Stopping the server
+[16:12:34] [Server thread/INFO]: Stopping server
+[16:12:34] [Server thread/INFO]: [Coins] Disabling Coins v1.13.1
+[16:12:34] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.22.0-dev+28-0aa25c8
+[16:12:34] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.22.0-dev+28-0aa25c8
+[16:12:34] [Server thread/INFO]: [LevelledMobs] Disabling LevelledMobs v4.3.2.1 b125
+[16:12:34] [Server thread/INFO]: [LevelledMobs] Unregistering commands
+[16:12:34] [Server thread/INFO]: [LevelledMobs] Tasks: Shutting down other async tasks...
+[16:12:34] [Server thread/INFO]: [LevelledMobs] Shut-down complete (took 5ms)
+[16:12:34] [Server thread/INFO]: [nAntiBot] Disabling nAntiBot v2.0.0
+[16:12:34] [Server thread/INFO]: [nAntiBot] Successful plugin core shutdown (took 0.00s)
+[16:12:34] [Server thread/INFO]: [nAntiBot] Disconnecting from remote server...
+[16:12:34] [Craft Scheduler Thread - 7 - LevelledMobs/INFO]: [LevelledMobs] Mob processing queue Manager has exited
+[16:12:34] [Craft Scheduler Thread - 10 - LevelledMobs/INFO]: [LevelledMobs] Nametag update queue Manager has exited
+[16:12:37] [Server thread/INFO]: [nLogin] Disabling nLogin v10.4.22
+[16:12:37] [Server thread/INFO]: [nLogin] Successful plugin core shutdown (took 0.00s)
+[16:12:37] [Server thread/INFO]: [TAB] Disabling TAB v5.2.5
+[16:12:37] [Server thread/INFO]: [TAB] Disabled in 1ms
+[16:12:37] [Server thread/INFO]: [Essentials] Disabling Essentials v2.22.0-dev+28-0aa25c8
+[16:12:37] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
+[16:12:37] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.4.0
+[16:12:37] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.6
+[16:12:37] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[16:12:37] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.11
+[16:12:37] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[16:12:37] [Server thread/INFO]: [LuckPerms] Closing storage...
+[16:12:37] [Server thread/INFO]: [LuckPerms] Goodbye!
+[16:12:37] [Server thread/INFO]: Saving players
+[16:12:37] [Server thread/INFO]: Saving worlds
+[16:12:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[16:12:37] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[16:12:37] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[16:12:37] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[16:12:37] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 132 entity chunks, 0 poi chunks in world 'world' in 0.22s
+[16:12:37] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[16:12:37] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[16:12:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[16:12:37] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[16:12:37] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[16:12:37] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[16:12:37] [Server thread/INFO]: [ChunkHolderManager] Saved 563 block chunks, 34 entity chunks, 0 poi chunks in world 'world_nether' in 0.40s
+[16:12:37] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[16:12:37] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[16:12:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[16:12:37] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[16:12:37] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[16:12:37] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[16:12:37] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.03s
+[16:12:37] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[16:12:37] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[16:12:38] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[16:12:38] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[16:12:38] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[16:12:38] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[16:12:38] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[16:12:38] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[16:12:38] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[16:12:38] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...

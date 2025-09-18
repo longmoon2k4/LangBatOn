@@ -1,0 +1,43 @@
+{
+  "NO_PERMISSION" : "&4Bạn không có quyền sử dụng lệnh này.",
+  "RELOAD_SUCCESS" : "&eCấu hình của &6Coins &eđã được tải lại trong &a{0}ms&e.",
+  "MINOR_ISSUES" : "&cĐã có một vài cảnh báo khi tải lại, hãy kiểm tra console.",
+  "CHECK_SETTINGS" : "&eBạn có thể xem các thiết lập đang hoạt động bằng &f/coins settings&e.",
+  "WITHDRAW_COINS" : "&eBạn đã rút &f{$}{0} &evà nhận được &f{0} đồng xu vật lý&e.",
+  "NOT_THAT_MUCH" : "&cBạn không thể rút nhiều tiền như vậy.",
+  "COINS_DISABLED" : "&cCoins bị vô hiệu hóa ở thế giới này.",
+  "SPAWNED_COINS" : "&9Đã tạo {0} đồng xu trong bán kính {1} xung quanh {2}.",
+  "REMOVED_COINS" : "&9Đã xóa tổng cộng {0} đồng xu.",
+  "INVENTORY_FULL" : "&cBạn không thể rút khi kho đồ đã đầy.",
+
+  "PLAYER_NOT_FOUND" : "&4Người chơi đó không trực tuyến.",
+  "COORDS_NOT_FOUND" : "&4Không tìm thấy tọa độ hoặc thế giới tương ứng.",
+
+  "INVALID_AMOUNT" : "&cĐây là một số tiền không hợp lệ.",
+  "INVALID_NUMBER" : "&cĐây không phải là một số hợp lệ.",
+  "INVALID_RADIUS" : "&cĐây là một bán kính không hợp lệ.",
+
+  "DROP_USAGE" : "&c/coins drop <player|x,y,z[,world]> <amount> [radius]",
+  "REMOVE_USAGE" : "&c/coins remove [radius|all] &7- xóa đồng xu trong một bán kính",
+  "SETTINGS_USAGE" : "&c/coins settings &7- liệt kê các thiết lập đang được nạp",
+  "RELOAD_USAGE" : "&c/coins reload &7- tải lại thiết lập từ config.yml",
+  "VERSION_CHECK" : "&c/coins version &7- kiểm tra xem có bản phát hành mới không",
+  "WITHDRAW_USAGE" : "&c/withdraw <worth> [amount] &7- rút tiền thành đồng xu",
+  "TOGGLE_USAGE" :  "&c/coins toggle &7- tắt hoặc bật Coins trên toàn server",
+
+  "DISABLED_REASONS" :  "&4Coins bị vô hiệu hóa vì các lý do sau:",
+  "CURRENTLY_INSTALLED" :  "&ePhiên bản đang cài đặt: &f{0}",
+  "LATEST_RELEASE" :  "&ePhiên bản mới nhất của &6Coins&e là &f{0}&e, phát hành vào &f{1}&e, mô tả: &f'{2}'&e. Hãy cân nhắc cập nhật plugin. &eTải tại: &9{3}",
+  "UP_TO_DATE" :  "&aBạn đang sử dụng phiên bản mới nhất: {0}.",
+  "LATEST_RETRIEVE_FAIL" :  "&cKhông thể lấy thông tin phiên bản mới nhất của Coins.",
+
+  "ENABLED" :  "&ađã bật",
+  "DISABLED" :  "&cđã tắt",
+
+  "GLOBALLY_DISABLED_INFORM" : "&eCoins đã được {0} trên toàn server&e. Dùng &f/coins toggle&e để chuyển đổi.",
+  "DISABLED_DESCRIPTION" :  "&eKhi bị tắt, đồng xu sẽ không rơi và không thể rút xu. Tuy nhiên, nhặt đồng xu đã rơi xuống đất và gửi xu vào tài khoản vẫn khả dụng.",
+  "WITHDRAWING_DISABLED" :  "&cTính năng rút đồng xu đã bị vô hiệu hóa trên server này.",
+
+  "GLOBALLY_DISABLED" :  "(bị tắt trên toàn server)",
+  "OUTDATED" :  "(lỗi thời → {0})"
+}

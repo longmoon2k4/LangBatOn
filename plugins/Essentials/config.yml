@@ -1,6 +1,6 @@
 ############################################################
 # +------------------------------------------------------+ #
-# |                       Notes                          | #
+# |                       Ghi chú                         | #
 # +------------------------------------------------------+ #
 ############################################################
 
@@ -21,7 +21,7 @@
 
 ############################################################
 # +------------------------------------------------------+ #
-# |                 EssentialsX (Global)                 | #
+# |                 EssentialsX (Toàn cục)               | #
 # +------------------------------------------------------+ #
 ############################################################
 
@@ -460,7 +460,7 @@ debug: false
 # For example, to set the language to English, set locale to 'en'. It will then use the file 'messages_en.properties'.
 # Don't forget to remove the # in front of the line.
 # For more information, visit https://essentialsx.net/wiki/Locale.html
-#locale: en
+locale: vi
 
 # Should Essentials use the player's language instead of the server's when sending messages?
 # This is useful if you want to use a different language for your server than for your players.
@@ -783,7 +783,7 @@ update-check: true
 
 ############################################################
 # +------------------------------------------------------+ #
-# |                        Homes                         | #
+# |                        Nhà (Homes)                   | #
 # +------------------------------------------------------+ #
 ############################################################
 
@@ -828,7 +828,7 @@ confirm-home-overwrite: false
 
 ############################################################
 # +------------------------------------------------------+ #
-# |                       Economy                        | #
+# |                       Kinh tế (Economy)              | #
 # +------------------------------------------------------+ #
 ############################################################
 
@@ -837,7 +837,7 @@ confirm-home-overwrite: false
 # You can control the values of items that are sold to the server by using the /setworth command and 'worth.yml'.
 
 # Defines the balance new players start with.
-starting-balance: 0
+starting-balance: 10000
 
 # Defines the cost to use the given commands PER USE.
 # Some commands like /repair have sub-costs. Check the wiki for more information.
@@ -850,7 +850,7 @@ command-costs:
 # Set this to a currency symbol you want to use.
 # Remember, if you want to use special characters in this document, such as accented letters,
 # you MUST save the file as UTF-8, not ANSI.
-currency-symbol: '$'
+currency-symbol: '₫'
 
 # Enable this to make the currency symbol appear at the end of the amount rather than at the start.
 # For example, the euro symbol typically appears after the current amount.
@@ -863,7 +863,7 @@ max-money: 10000000000000
 # Set the minimum amount of money a player can have (must be greater than the negative value of max-money).
 # Setting this to 0 will disable overdrafts/loans completely.
 # Players need 'essentials.eco.loan' permission to have a negative balance.
-min-money: -10000
+min-money: -100
 
 # Enable this to log all interactions with buy/sell/trade signs and the sell command.
 economy-log-enabled: false
@@ -877,7 +877,7 @@ economy-log-uuids: false
 economy-log-update-enabled: false
 
 # The minimum acceptable amount to be used in /pay.
-minimum-pay-amount: 0.001
+minimum-pay-amount: 1
 
 # Enable this to block players who try to /pay someone who is ignoring them.
 pay-excludes-ignore-list: false
@@ -922,7 +922,7 @@ sell-multipliers:
 
 ############################################################
 # +------------------------------------------------------+ #
-# |                         Help                         | #
+# |                         Trợ giúp                      | #
 # +------------------------------------------------------+ #
 ############################################################
 
@@ -937,7 +937,7 @@ hide-permissionless-help: true
 
 ############################################################
 # +------------------------------------------------------+ #
-# |                   EssentialsX Chat                   | #
+# |               EssentialsX Chat (Trò chuyện)           | #
 # +------------------------------------------------------+ #
 ############################################################
 
@@ -981,8 +981,8 @@ chat:
   # Note: The {DISPLAYNAME} placeholder includes {PREFIX} and {SUFFIX} by default.
   # Using these together may result in double prefixes/suffixes in chat.
 
-  format: '<{DISPLAYNAME}> {MESSAGE}'
-  #format: '&7[{GROUP}]&r {DISPLAYNAME}&7:&r {MESSAGE}'
+  #format: '<{DISPLAYNAME}> {MESSAGE}'
+  format: '&7[{GROUP}]&r {DISPLAYNAME}&7:&r {MESSAGE}'
   #format: '&7{PREFIX}&r {NICKNAME}&r &7{SUFFIX}&r: {MESSAGE}'
 
   # You can also specify a format for each type of chat.
@@ -1027,7 +1027,7 @@ chat:
 
 ############################################################
 # +------------------------------------------------------+ #
-# |                  EssentialsX Protect                 | #
+# |               EssentialsX Protect (Bảo vệ)           | #
 # +------------------------------------------------------+ #
 ############################################################
 
@@ -1179,7 +1179,7 @@ protect:
 
 ############################################################
 # +------------------------------------------------------+ #
-# |                 EssentialsX AntiBuild                | #
+# |             EssentialsX AntiBuild (Chống xây dựng)   | #
 # +------------------------------------------------------+ #
 ############################################################
 
@@ -1223,7 +1223,7 @@ protect:
 
 ############################################################
 # +------------------------------------------------------+ #
-# |            EssentialsX Spawn + New Players           | #
+# |        EssentialsX Spawn + Người chơi mới (Newbies)  | #
 # +------------------------------------------------------+ #
 ############################################################
 
@@ -1235,7 +1235,7 @@ newbies:
   # {DISPLAYNAME} will be replaced with the player name.
   # Set to '' to disable.
   #announce-format: ''
-  announce-format: '&dWelcome {DISPLAYNAME}&d to the server!'
+  announce-format: '&dChao xìn {DISPLAYNAME}&d đến với Làng Bất Ổnv!'
 
   # When players spawn for the first time, which spawnpoint should be used?
   # Set to 'none' to use the spawnpoint of the world.
@@ -1246,7 +1246,7 @@ newbies:
   # This kit will be given regardless of cost and permissions and won't trigger any kit delay (cooldown).
   # Set to '' to disable.
   #kit: ''
-  kit: tools
+  kit: newbies
 
 # What priority should Essentials use for handling respawns?
 # Set this to 'none' if you want vanilla respawning behavior.

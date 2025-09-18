@@ -97,33 +97,33 @@ scoreboard:
       title: "%animation:MyAnimation%"
       display-condition: "%player-version-id%>=765;%bedrock%=false" # Only display it to players using 1.20.3+ AND NOT bedrock edition
       lines:
-        - "&7%date%"
         - "%animation:MyAnimation1%"
-        - "&6Online:"
-        - "* &eOnline&7:||%online%"
-        - "* &eCurrent World&7:||%worldonline%"
-        - "* &eStaff&7:||%staffonline%"
+        - "%animation:ArrowsRGB% &b&lServer Info:"
+        - "  &eIP      : &2play.langbaton.vn "
+        - "  &eWebsite : &2smiledev.id.vn"
         - ""
-        - "&6Personal Info:"
-        - "* &bRank&7:||%group%"
-        - "* &bPing&7:||%ping%&8ms"
-        - "* &bWorld&7:||%world%"
+        - "%animation:ArrowsRGB% &b&lPlayer Info:"
+        - ""
+        - " &7• &cMáu&7: &f%health% &4❤ &8| &bRank&7: &f%group%"
+        - " &7• &aSố dư&7: &f%vault_eco_balance_formatted% &a&lVNĐ &8| &6Vàng&7: no plugin"
+        - ""
+        - "           &l%world%"
         - "%animation:MyAnimation1%"
     scoreboard:
       title: "<#E0B11E>MyServer</#FF0000>"
       lines:
-        - "&7%date%"
-        - "%animation:MyAnimation1%"
-        - "&6Online:"
-        - "* &eOnline&7: &f%online%"
-        - "* &eCurrent World&7: &f%worldonline%"
-        - "* &eStaff&7: &f%staffonline%"
-        - ""
-        - "&6Personal Info:"
-        - "* &bRank&7: &f%group%"
-        - "* &bPing&7: &f%ping%&8ms"
-        - "* &bWorld&7: &f%world%"
-        - "%animation:MyAnimation1%"
+          - "%animation:MyAnimation1%"
+          - "%animation:ArrowsRGB% &b&lServer Info:"
+          - "  &eIP      : &2play.langbaton.vn "
+          - "  &eWebsite : &2smiledev.id.vn"
+          - ""
+          - "%animation:ArrowsRGB% &b&lPlayer Info:"
+          - ""
+          - " &7• &cMáu&7: &f%health% &4❤ &8| &bRank&7: &f%group%"
+          - " &7• &aSố dư&7: &f%vault_eco_balance_formatted% &a&lVNĐ &8| &6Vàng&7: no plugin"
+          - ""
+          - "           &l%world%"
+          - "%animation:MyAnimation1%"
 
 # https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Layout
 layout:
@@ -178,6 +178,11 @@ placeholder-output-replacements:
   "%essentials_vanished%":
     "yes": "&7| Vanished"
     "no": ""
+  "%world%":
+    "world": "&a🌍 Trái Đất"
+    "world_nether": "&4🔥 Địa Ngục"
+    "world_the_end": "&5✨ Mặt Trăng"
+    "disabledworld": "&7⚪ Disabled"
 
 # https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Conditional-placeholders
 conditions:
